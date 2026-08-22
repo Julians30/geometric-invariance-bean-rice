@@ -1,0 +1,19 @@
+manuscript_label,manuscript_purpose,repository_or_project_asset,status
+S1a,Field-by-field dataset provenance and availability,"data/dataset_provenance.csv | data/data_dictionary.csv | DATA_RIGHTS.md | data/THIRD_PARTY_ATTRIBUTION.md | data/INIAP_RICE_SCOPE.md",documented_pending_compact_display_table
+S1b,Analytical source reconciliation,tables/supplementary/Table_S1_source_reconciliation.csv,available
+S2,Exact selected-model metadata,tables/supplementary/Table_S2_exact_model_metadata.csv,available
+S3,Duplicate-group bootstrap intervals for primary metrics,tables/supplementary/Table_S3_primary_metric_bootstrap_intervals.csv,available
+S4b,Complete absolute confirmatory metrics for all representations,tables/supplementary/Table_S8_all_representation_metrics.csv,available
+S4c,Complete Holm families for paired representation contrasts,tables/supplementary/Table_S9_all_paired_representation_contrasts.csv,pending_transfer
+S5,Exact McNemar comparisons,tables/supplementary/Table_S10_exact_McNemar_results.csv,available
+S6a,Dry Bean practical equivalence R1 vs R4-C,tables/main/Table_3_corrected_representation_contrasts.csv,supported_pending_compact_display_table
+S6b,Five prespecified INIAP Rice equivalence contrasts,tables/supplementary/Table_S11_rice_equivalence_results.csv,available
+S7,Before-after calibration diagnostics,tables/supplementary/Table_S5_calibration_audit.csv,available
+S8,Complete classwise performance,tables/supplementary/Table_S6_classwise_metrics.csv,available
+S9,Selective-classification uncertainty at selected operating point,tables/supplementary/Table_S13_selective_operating_point_intervals.csv,pending_transfer
+S9c,Selective classwise coverage at 90% target,tables/supplementary/Table_S14_selective_classwise_90pct.csv,available
+S10,Conformal sensitivity LAC RAPS Mondrian deterministic,"tables/supplementary/Table_S15_all_conformal_global_results.csv | Table_S16_all_conformal_classwise_results.csv | Table_S17_conformal_quantiles.csv | Table_S18_conformal_global_intervals.csv | Table_S19_conformal_paired_comparisons.csv",pending_transfer
+S11,Complete controlled R1 block-permutation results,tables/supplementary/Table_S20_controlled_R1_importance.csv,available
+S12,Complete image-space scale perturbation grid,tables/supplementary/Table_S21_complete_R1_scale_sensitivity.csv,available
+S13,Complete duplicate-leakage audits,"tables/supplementary/Table_S22_naive_row_split_audit.csv | Table_S23_fixed_test_duplicate_contamination.csv",available
+S14,Computational timing source validation and analysis seeds,"tables/supplementary/Table_S24_notebook12_computational_timing.csv | Table_S25_source_validation_summary.csv | protocol/frozen_split_and_modeling_protocol_v1.json",partial_seed_table_pending
