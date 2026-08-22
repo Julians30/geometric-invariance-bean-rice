@@ -1,0 +1,3 @@
+dataset_id,path,rows,columns,size_bytes,sha256
+dry_bean,splits/dry_bean_split_manifest_v1.csv,13611,12,3184938,f42b10aa285cc7aa6dde34d4d949170058819363004e0ba295a5261d34a69be2
+iniap_rice,splits/iniap_rice_split_manifest_v1.csv,9200,12,2188688,ac3dda96879b24f4af3446af0fdd64f6d8d68f489f397dc9e4afd7b5f0a8ea70
