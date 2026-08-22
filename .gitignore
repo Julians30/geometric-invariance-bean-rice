@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary / local exports
+*.tmp
+*.temp
+*.bak
+*.log
+
+# IMPORTANT: raw INIAP image assets are intentionally excluded
+raw_images/
+images_raw/
+segmentation_masks/
+masks/
+acquisition_raw/
