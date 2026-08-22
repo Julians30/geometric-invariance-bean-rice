@@ -26,7 +26,7 @@ The **Dry Bean Dataset is not owned by the authors of this repository**. It is a
 
 The frozen copy used in this project is retained only to preserve the exact analytical input and split assignments used in the manuscript. Its inclusion does **not** imply ownership by the manuscript authors.
 
-### 2. INIAP Rice — original dataset from the authors' research
+### 2. INIAP Rice - original dataset from the authors' research
 
 The **INIAP Rice morphometric dataset is an original dataset generated within the authors' research and is not a public third-party benchmark**.
 
