@@ -1,3 +1,0 @@
-dataset_id,total_records,train_records,calibration_records,test_records,split_seed,split_version,unique_duplicate_groups,duplicate_groups_size_gt_1,rows_in_duplicate_groups,max_duplicate_group_size
-dry_bean,13611,8161,2725,2725,20260803,grouped_stratified_60_20_20_v1,13543,68,136,2
-iniap_rice,9200,5520,1840,1840,20260803,grouped_stratified_60_20_20_v1,9200,0,0,1
