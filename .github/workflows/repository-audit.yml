@@ -21,5 +21,8 @@ jobs:
       - name: Audit release boundary
         run: python scripts/audit_release_scope.py
 
+      - name: Audit release notebooks when present
+        run: python scripts/audit_notebooks.py
+
       - name: Check frozen-file integrity when present
         run: python scripts/verify_integrity.py
