@@ -1,0 +1,3 @@
+dataset_id,representation,algorithm,n_test,accuracy,balanced_accuracy,macro_f1,mcc,log_loss,brier_multiclass,authoritative_source
+dry_bean,R1_full_native,rbf_svm,2725,0.9233027522935779,0.9338937932300725,0.9366052596258141,0.9074018935084023,0.2174161407033396,0.11431626452869836,Notebook 05 exact frozen predictions
+iniap_rice,R4_hybrid_log_area,rbf_svm,1840,0.9826086956521739,0.9814926832423136,0.9811650961412389,0.9731277166511985,0.04638579624240649,0.026556523413873913,Notebook 05 exact frozen predictions
