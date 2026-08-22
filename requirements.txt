@@ -1,0 +1,14 @@
+# Core versions verified from the executed Colab notebooks
+numpy==2.0.2
+pandas==2.2.2
+scikit-learn==1.6.1
+pyarrow==18.1.0
+
+# Additional dependencies used by the analytical workflow
+scipy
+joblib
+statsmodels
+catboost
+matplotlib
+openpyxl
+tabulate
