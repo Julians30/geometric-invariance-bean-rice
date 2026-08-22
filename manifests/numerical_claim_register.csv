@@ -1,0 +1,15 @@
+claim_id,claim,source
+C001,Dry Bean frozen-test accuracy = 0.923303.,Notebook 05 / Main Table 2
+C002,Dry Bean frozen-test macro-F1 = 0.936605.,Notebook 05 / Main Table 2
+C003,Dry Bean frozen-test MCC = 0.907402.,Notebook 05 / Main Table 2
+C004,INIAP Rice frozen-test accuracy = 0.982609.,Notebook 05 / Main Table 2
+C005,INIAP Rice frozen-test macro-F1 = 0.981165.,Notebook 05 / Main Table 2
+C006,"The corrected Dry Bean R1–R3-complete macro-F1 difference = 0.173373, 95% CI 0.154662 to 0.193236.",Notebook 12 / Main Table 3
+C007,"The corrected Dry Bean R1–R4-complete macro-F1 difference = 0.002411, 95% CI -0.002085 to 0.006980.",Notebook 12 / Main Table 3
+C008,Selective classification uses the exact frozen Notebook 05 champions and calibration-only thresholds.,Notebook 07 / Main Table 4
+C009,Canonical APS uses the exact frozen Notebook 05 champions and calibration-only finite-sample quantiles.,Notebook 08 v2 / Main Table 5
+C010,Empty conformal sets are retained and counted as non-covering outcomes.,Notebook 08 v2 protocol / Main Table 5
+C011,The complete Dry Bean invariant representation contains eight dimensionless predictors.,Notebook 12 / Table S7
+C012,The original Rice R4-hybrid feature set is identical to the Notebook 12 R4-complete feature set.,Notebook 05 metadata and Notebook 12 audit
+C013,"Linear and area-related descriptors are interpreted in pixels and squared pixels, respectively.",Final reconciliation protocol
+C014,"Notebook 12 refitted probabilities are not used for the primary performance, selective or conformal tables.",Table S1 source reconciliation
