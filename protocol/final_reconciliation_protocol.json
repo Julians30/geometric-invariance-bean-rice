@@ -1,0 +1,52 @@
+{
+  "protocol_name": "Grain_AI_MDPI_final_reconciliation_protocol_v1",
+  "created_utc": "2026-08-05T17:15:48.637870+00:00",
+  "source_zip_sha256": {
+    "notebook05": "01cf1cc1df8813d87f727a7240fb1ae59dfc90cbd712b22e82ffc352cd9fa6fd",
+    "notebook07": "ad6a3cf3e7b86b5694896b2120151efcfd375f4a61df90cab66063c2059fcbb9",
+    "notebook08": "f9b09fcb32458ea2a3d6aa2f91fbf77cec20f2fbb7148735efed3d23282e32b7",
+    "notebook12": "68eee4090933b5fb31e611f8175c773ee3395af979e3729db68af61b06da05fa"
+  },
+  "frozen_primary_models": {
+    "dry_bean": {
+      "representation": "R1_full_native",
+      "algorithm": "rbf_svm",
+      "candidate_id": "rbf_svm_C02"
+    },
+    "iniap_rice": {
+      "representation": "R4_hybrid_log_area",
+      "algorithm": "rbf_svm",
+      "candidate_id": "rbf_svm_C04"
+    }
+  },
+  "authoritative_source_policy": {
+    "primary_performance_calibration_confusion": "Notebook 05 exact frozen predictions",
+    "selective_classification": "Notebook 07 outputs based on the exact frozen champions",
+    "conformal_prediction": "Notebook 08 v2 outputs based on the exact frozen champions",
+    "reviewer_confirmatory_reanalysis": "Notebook 12 v2"
+  },
+  "notebook12_refitted_predictions_used_for_primary_tables": false,
+  "bootstrap": {
+    "repetitions": 2000,
+    "unit": "duplicate_group_id",
+    "stratification": "class_label",
+    "confidence_level": 0.95,
+    "seed": 2026081302
+  },
+  "measurement_units": {
+    "linear_descriptors": "pixels",
+    "area_descriptors": "squared pixels",
+    "ratios_and_shape_factors": "dimensionless",
+    "pixel_to_millimetre_conversion": null
+  },
+  "restrictions": [
+    "No model training.",
+    "No model or representation reselection.",
+    "No test-based threshold selection.",
+    "No test-based conformal quantile selection.",
+    "No physical-unit interpretation.",
+    "No fabricated benchmark result, reference, repository DOI or license.",
+    "Permutation SD is not a sampling confidence interval.",
+    "Empty conformal sets remain non-covering outcomes."
+  ]
+}
