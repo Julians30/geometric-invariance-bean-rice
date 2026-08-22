@@ -1,0 +1,5 @@
+analysis_layer,authoritative_source,models,refitted_notebook12_predictions_used
+"Primary performance, calibration, confusion and classwise metrics",Notebook 05,Dry Bean R1 + RBF-SVM; Rice R4 hybrid log-area + RBF-SVM,False
+Selective classification,Notebook 07,Exact frozen Notebook 05 champions,False
+Canonical conformal prediction,Notebook 08 v2,Exact frozen Notebook 05 champions,False
+"Corrected representations, exact McNemar, equivalence, controlled importance, scale and leakage",Notebook 12 v2,Confirmatory reviewer-driven reanalysis,True
