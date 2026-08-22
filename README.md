@@ -68,6 +68,7 @@ The current preparation status is tracked in [`STATUS.md`](STATUS.md).
 - [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) — working pre-publication and post-publication data-availability wording.
 - [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) — frozen evaluation design and reproducibility protocol.
 - [`docs/MANUSCRIPT_LABEL_MAPPING.md`](docs/MANUSCRIPT_LABEL_MAPPING.md) — mapping between historical internal representation names and the scientific manuscript labels.
+- [`notebooks/INDEX.md`](notebooks/INDEX.md) — analytical notebook sequence and authority hierarchy.
 - [`environment/README.md`](environment/README.md) — verified execution environment.
 - [`tables/main/`](tables/main/) — seven reconciled main machine-readable tables.
 - [`tables/supplementary/`](tables/supplementary/) — reconciled supplementary machine-readable outputs.
