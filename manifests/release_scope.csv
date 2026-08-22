@@ -1,0 +1,11 @@
+asset_group,asset,status,release_scope,notes
+Dry Bean,data/dry_bean_frozen_v1.csv,pending_transfer,include,"Frozen analytical copy of the public UCI Dry Bean benchmark; third-party data, not owned by manuscript authors."
+INIAP Rice,data/iniap_rice_frozen_v1.csv,pending_transfer,include,"Author-generated 9,200-record morphometric feature table only."
+Dry Bean,splits/dry_bean_split_manifest_v1.csv,pending_transfer,include,"Frozen leakage-safe train/calibration/test assignments."
+INIAP Rice,splits/iniap_rice_split_manifest_v1.csv,pending_transfer,include,"Frozen leakage-safe train/calibration/test assignments."
+INIAP Rice,original grain images,excluded,do_not_release,"Part of ongoing doctoral research; outside article reproducibility scope."
+INIAP Rice,segmentation masks,excluded,do_not_release,"Part of ongoing doctoral research; outside article reproducibility scope."
+INIAP Rice,image-acquisition material,excluded,do_not_release,"Part of ongoing doctoral research; outside article reproducibility scope."
+Analysis,notebooks,partial,include_feature_level_only,"Include notebooks required to reproduce analyses from released morphometric tables; exclude image acquisition/segmentation workflows."
+Analysis,tables,available,include,"Machine-readable main and supplementary tables derived from frozen analytical assets."
+Analysis,manifests,available,include,"SHA-256 integrity, validation, provenance, and numerical-claim records."
