@@ -1,0 +1,11 @@
+dataset_id,representation,origin,n_features,features,rows,missing_values,partitions,run_mode
+dry_bean,R1_full_native,existing_frozen,16,Area | Perimeter | MajorAxisLength | MinorAxisLength | AspectRation | Eccentricity | ConvexArea | EquivDiameter | Extent | Solidity | roundness | Compactness | ShapeFactor1 | ShapeFactor2 | ShapeFactor3 | ShapeFactor4,13611,0,calibration | test | train,FULL
+dry_bean,R2_measured_core,existing_frozen,6,area | perimeter | major_axis | minor_axis | convex_area | extent,13611,0,calibration | test | train,FULL
+dry_bean,R3_reduced_current,original_reduced_invariant_core,5,aspect_ratio | extent | solidity | circularity | ellipse_fill,13611,0,calibration | test | train,FULL
+dry_bean,R4_reduced_log_area_current,original_reduced_invariant_plus_log_area,6,aspect_ratio | extent | solidity | circularity | ellipse_fill | log_area,13611,0,calibration | test | train,FULL
+dry_bean,R3_complete_invariant,all_eight_dimensionless_R1_predictors,8,AspectRation | Eccentricity | Extent | Solidity | roundness | Compactness | ShapeFactor3 | ShapeFactor4,13611,0,calibration | test | train,FULL
+dry_bean,R4_complete_log_area,complete_invariant_plus_log_pixel_area,9,AspectRation | Eccentricity | Extent | Solidity | roundness | Compactness | ShapeFactor3 | ShapeFactor4 | log_area,13611,0,calibration | test | train,FULL
+iniap_rice,R1_full_native,existing_frozen,7,AREA | PERIMETER | MAJOR_AXIS | MINOR_AXIS | ECCENTRICITY | CONVEX_AREA | EXTENT,9200,0,calibration | test | train,FULL
+iniap_rice,R2_measured_core,existing_frozen,6,area | perimeter | major_axis | minor_axis | convex_area | extent,9200,0,calibration | test | train,FULL
+iniap_rice,R3_complete_invariant,complete_engineered_invariant_set,5,aspect_ratio | extent | solidity | circularity | ellipse_fill,9200,0,calibration | test | train,FULL
+iniap_rice,R4_complete_log_area,complete_invariant_plus_log_pixel_area,6,aspect_ratio | extent | solidity | circularity | ellipse_fill | log_area,9200,0,calibration | test | train,FULL
