@@ -1,0 +1,9 @@
+dataset_id,representation,analysis,block,n_block_features,matched_subset_size,importance_mean,importance_sd,interval_low,interval_high,importance_per_feature,n_repeats,interval_interpretation
+dry_bean,R1_full_native,full_block,scale_dependent,8,,0.5132485311686833,0.0076364076272395,0.4997079105640151,0.5262690115319202,0.0641560663960854,200,"permutation distribution, not sampling CI"
+dry_bean,R1_full_native,matched_two_feature,scale_dependent,8,2.0,0.1161318038358587,0.0377589868570927,0.0555065857099957,0.1738813051648144,0.0580659019179293,200,"permutation distribution, not sampling CI"
+dry_bean,R1_full_native,full_block,dimensionless_shape,8,,0.445145295952591,0.0071833071532568,0.4326179856564649,0.459716381389325,0.0556431619940738,200,"permutation distribution, not sampling CI"
+dry_bean,R1_full_native,matched_two_feature,dimensionless_shape,8,2.0,0.0857061120290615,0.0393366321054248,0.023581109416697,0.1506199624613736,0.0428530560145307,200,"permutation distribution, not sampling CI"
+iniap_rice,R1_full_native,full_block,scale_dependent,5,,0.5435862823457772,0.011936179517215,0.5206489051623475,0.5658993845972196,0.1087172564691554,200,"permutation distribution, not sampling CI"
+iniap_rice,R1_full_native,matched_two_feature,scale_dependent,5,2.0,0.2071500864845649,0.1319586901235342,0.0335025741783227,0.4518987180120051,0.1035750432422824,200,"permutation distribution, not sampling CI"
+iniap_rice,R1_full_native,full_block,dimensionless_shape,2,,0.191681864156874,0.0078870243936377,0.1769503052464641,0.2061189162567298,0.095840932078437,200,"permutation distribution, not sampling CI"
+iniap_rice,R1_full_native,matched_two_feature,dimensionless_shape,2,2.0,0.191681864156874,0.0078870243936377,0.1769503052464641,0.2061189162567298,0.095840932078437,200,"permutation distribution, not sampling CI"
