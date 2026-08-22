@@ -6,11 +6,11 @@ Private reproducibility repository associated with the manuscript **“Testing G
 
 This repository is restricted to the **feature-level analytical workflow** used in the manuscript. It supports reproducibility of the statistical and machine-learning analyses performed from extracted morphometric descriptors.
 
-## Dataset provenance — important distinction
+## Dataset provenance - important distinction
 
 This study combines **two datasets with different provenance and ownership status**. They must not be interpreted as belonging to the same source.
 
-### 1. Dry Bean — public third-party benchmark dataset
+### 1. Dry Bean - public third-party benchmark dataset
 
 The **Dry Bean Dataset is not owned by the authors of this repository**. It is a public benchmark dataset distributed through the **UCI Machine Learning Repository** and attributed to **Murat Koklu and Ilker Ali Ozkan**.
 
