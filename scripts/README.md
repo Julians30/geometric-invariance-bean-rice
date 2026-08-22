@@ -16,7 +16,14 @@ Expected result before release: `RELEASE-SCOPE AUDIT: PASS`.
 
 ## `verify_integrity.py`
 
-Checks frozen analytical files against `manifests/frozen_file_manifest.csv`.
+Checks the **four release-intended frozen CSV files**:
+
+- `data/dry_bean_frozen_v1.csv`
+- `data/iniap_rice_frozen_v1.csv`
+- `splits/dry_bean_split_manifest_v1.csv`
+- `splits/iniap_rice_split_manifest_v1.csv`
+
+Expected hashes and dimensions come from `manifests/frozen_file_manifest.csv` and `manifests/split_file_manifest.csv`.
 
 For each present file it verifies:
 
@@ -25,12 +32,16 @@ For each present file it verifies:
 - CSV row count;
 - CSV column count.
 
-Until the large analytical files are transferred, the script reports them as `PENDING` rather than treating their absence as a hash failure. After final transfer, all release-intended CSV files should be present and pass verification.
-
-Run:
+During repository preparation, missing large files are reported as `PENDING`:
 
 ```bash
 python scripts/verify_integrity.py
+```
+
+Immediately before reviewer/public release, use strict mode so that any missing release-intended file fails verification:
+
+```bash
+python scripts/verify_integrity.py --strict
 ```
 
 ## Make targets
