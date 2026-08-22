@@ -1,0 +1,11 @@
+dataset_id,representation,algorithm,class_label,precision,recall,f1,support,authoritative_source
+dry_bean,R1_full_native,rbf_svm,BARBUNYA,0.9505703422053232,0.8992805755395683,0.9242144177449169,278,Notebook 05 exact frozen predictions
+dry_bean,R1_full_native,rbf_svm,BOMBAY,1.0,1.0,1.0,102,Notebook 05 exact frozen predictions
+dry_bean,R1_full_native,rbf_svm,CALI,0.9683544303797469,0.9503105590062112,0.9592476489028213,322,Notebook 05 exact frozen predictions
+dry_bean,R1_full_native,rbf_svm,DERMASON,0.903954802259887,0.9261939218523878,0.9149392423159399,691,Notebook 05 exact frozen predictions
+dry_bean,R1_full_native,rbf_svm,HOROZ,0.9610705596107056,0.9705159705159705,0.9657701711491442,407,Notebook 05 exact frozen predictions
+dry_bean,R1_full_native,rbf_svm,SEKER,0.9444444444444444,0.9373433583959899,0.9408805031446541,399,Notebook 05 exact frozen predictions
+dry_bean,R1_full_native,rbf_svm,SIRA,0.8487712665406427,0.8536121673003803,0.8511848341232228,526,Notebook 05 exact frozen predictions
+iniap_rice,R4_hybrid_log_area,rbf_svm,INIAP-11,1.0,1.0,1.0,601,Notebook 05 exact frozen predictions
+iniap_rice,R4_hybrid_log_area,rbf_svm,INIAP-12,0.98125,0.9788029925187033,0.9800249687890137,802,Notebook 05 exact frozen predictions
+iniap_rice,R4_hybrid_log_area,rbf_svm,INIAP-20,0.9612756264236902,0.965675057208238,0.9634703196347032,437,Notebook 05 exact frozen predictions
