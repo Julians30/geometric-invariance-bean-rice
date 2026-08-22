@@ -1,0 +1,16 @@
+component,version_or_value,status
+Python,3.12.13,recorded
+NumPy,2.0.2,recorded
+pandas,2.2.2,recorded
+scikit-learn,1.6.1,recorded
+pyarrow,18.1.0,recorded
+platform,Linux-6.6.122+-x86_64-with-glibc2.35,recorded
+cpu_count,2,recorded
+gpu_required,no,recorded
+SciPy,,used_version_not_explicitly_frozen
+joblib,,used_version_not_explicitly_frozen
+statsmodels,,used_version_not_explicitly_frozen
+CatBoost,,used_version_not_explicitly_frozen
+Matplotlib,,used_version_not_explicitly_frozen
+openpyxl,,used_version_not_explicitly_frozen
+tabulate,,used_version_not_explicitly_frozen
