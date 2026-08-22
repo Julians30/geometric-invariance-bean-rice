@@ -22,7 +22,23 @@ The detailed file-by-file authority hierarchy is maintained in [`INDEX.md`](INDE
 
 ## Current transfer status
 
-The notebook names, roles, and source hierarchy are documented, but the notebook files themselves are still pending final transfer to this repository. Before transfer, each notebook must be checked to ensure that it contains only the feature-level workflow and does not embed unreleased original INIAP Rice visual assets.
+The notebook names, roles, and source hierarchy are documented, but the notebook files themselves are still pending final transfer to this repository.
+
+A release audit has already been performed on five core notebooks available from the project archive: stages **01, 03, 05, 12, and 13B**. Their executed outputs were removed to create release-safe copies. Across those five source notebooks, **136 executed outputs and 28 embedded image outputs were removed**, with no cell attachments detected. Source-code inspection found no raw-image loading references for original INIAP Rice grain photographs; occurrences of `mask` were analytical Boolean masks and occurrences of `.png` referred to generated analytical figures.
+
+The machine-readable audit is stored in `../manifests/notebook_release_audit.csv`.
+
+## Release-safe notebook policy
+
+Notebooks intended for GitHub should be distributed in an **output-stripped form**:
+
+- preserve code cells and Markdown;
+- clear code-cell execution counts;
+- remove all executed outputs;
+- remove cell attachments;
+- preserve the analytical logic and notebook metadata needed for reproducibility.
+
+The utility `../scripts/clean_notebook_for_release.py` implements this transformation without modifying source code.
 
 ## Required inclusion boundary
 
