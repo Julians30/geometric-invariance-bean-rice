@@ -24,7 +24,7 @@ The **Dry Bean Dataset is not owned by the authors of this repository**. It is a
 - License: **CC BY 4.0**
 - Associated paper: Koklu, M.; Ozkan, I.A. *Multiclass classification of dry beans using computer vision and machine learning techniques*. Computers and Electronics in Agriculture, 2020, 174, 105507. https://doi.org/10.1016/j.compag.2020.105507
 
-The copy used in this project is included only to preserve the exact frozen analytical input and split assignments used in the manuscript. Its inclusion does **not** imply ownership by the manuscript authors.
+The frozen copy used in this project is retained only to preserve the exact analytical input and split assignments used in the manuscript. Its inclusion does **not** imply ownership by the manuscript authors.
 
 ### 2. INIAP Rice — original dataset from the authors' research
 
@@ -40,36 +40,61 @@ The **INIAP Rice morphometric dataset is an original dataset generated within th
 
 **Original INIAP Rice grain images, segmentation masks, image-acquisition materials, and other raw visual assets are not included in this repository.** These materials form part of an ongoing doctoral research project and are outside the reproducibility scope of this manuscript.
 
-The INIAP Rice contribution released with this study is limited to the numerical morphometric table required to reproduce the feature-level analyses reported in the manuscript.
+The INIAP Rice contribution associated with this study is limited to the numerical morphometric table required to reproduce the feature-level analyses reported in the manuscript.
 
-## Included materials
+## Reproducibility package scope
+
+The repository is being assembled to contain:
 
 - Frozen morphometric feature tables used in the analyses.
 - Prespecified train/calibration/test split assignments.
-- Analysis notebooks and reproducible code.
+- Analysis notebooks and reproducible code required for the feature-level workflow.
 - Numerical outputs used to support manuscript claims.
-- Tables and figure-generation outputs derived from the morphometric data.
+- Machine-readable main and supplementary tables.
 - SHA-256 integrity manifests and validation records.
+
+The current preparation status is tracked in [`STATUS.md`](STATUS.md).
 
 ## Not included
 
 - Original INIAP Rice grain images.
 - Segmentation masks.
-- Image-acquisition files or protocols containing unreleased visual material.
-- Other raw visual assets from the doctoral research project.
+- Raw image-acquisition files.
+- Unreleased visual assets from the doctoral research project.
+
+## Documentation index
+
+- [`DATA_RIGHTS.md`](DATA_RIGHTS.md) — provenance, ownership, and reuse status.
+- [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) — working pre-publication and post-publication data-availability wording.
+- [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) — frozen evaluation design and reproducibility protocol.
+- [`docs/MANUSCRIPT_LABEL_MAPPING.md`](docs/MANUSCRIPT_LABEL_MAPPING.md) — mapping between historical internal representation names and the scientific manuscript labels.
+- [`environment/README.md`](environment/README.md) — verified execution environment.
+- [`tables/main/`](tables/main/) — seven reconciled main machine-readable tables.
+- [`tables/supplementary/`](tables/supplementary/) — reconciled supplementary machine-readable outputs.
+- [`manifests/`](manifests/) — integrity, validation, and numerical-claim records.
 
 ## Repository structure
 
 ```text
 geometric-invariance-bean-rice/
 ├── README.md
+├── STATUS.md
+├── CITATION.cff
+├── DATA_RIGHTS.md
+├── DATA_AVAILABILITY.md
+├── REPRODUCIBILITY.md
+├── requirements.txt
 ├── data/
 ├── splits/
 ├── notebooks/
 ├── results/
 ├── tables/
+│   ├── main/
+│   └── supplementary/
 ├── protocol/
-└── manifests/
+├── manifests/
+├── docs/
+└── environment/
 ```
 
 ## Reproducibility boundary
@@ -78,4 +103,4 @@ The materials in this repository are intended to reproduce the statistical and m
 
 ## Repository status
 
-This repository is currently **private** while the manuscript is under preparation. Public release, if applicable, will follow the journal’s data-sharing requirements and the authors’ publication plan.
+This repository is currently **private** while the manuscript is under preparation. Public release, if applicable, will follow the journal's data-sharing requirements and the authors' publication plan.
