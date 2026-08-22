@@ -22,11 +22,13 @@ The detailed file-by-file authority hierarchy is maintained in [`INDEX.md`](INDE
 
 ## Current transfer status
 
-The notebook names, roles, and source hierarchy are documented, but the notebook files themselves are still pending final transfer to this repository.
+The notebook names, roles, and source hierarchy are documented, but the release-safe notebook files themselves are still pending final transfer to this repository.
 
-A release audit has already been performed on five core notebooks available from the project archive: stages **01, 03, 05, 12, and 13B**. Their executed outputs were removed to create release-safe copies. Across those five source notebooks, **136 executed outputs and 28 embedded image outputs were removed**, with no cell attachments detected. Source-code inspection found no raw-image loading references for original INIAP Rice grain photographs; occurrences of `mask` were analytical Boolean masks and occurrences of `.png` referred to generated analytical figures.
+A release audit has now been performed on the complete analytical notebook sequence available in the project archive: **01, 02, 03, 04, 05, 06, 07, 08 canonical v2, 09 v2, 10, 11 final, 12 corrected, 13, and 13B**. Output-stripped copies were created for all 14 notebooks.
 
-The machine-readable audit is stored in `../manifests/notebook_release_audit.csv`.
+Across the complete source sequence, **384 executed outputs and 85 embedded image outputs were removed**, with **zero cell attachments** detected. A targeted source-code audit also found **zero raw-image loading calls or raw raster-file references** matching the release guard patterns. The `.png` references retained in code are generated analytical figures, while `mask` occurrences are analytical Boolean masks rather than segmentation-mask loading operations.
+
+The machine-readable audit, cleaned notebook sizes, and SHA-256 values are stored in `../manifests/notebook_release_audit.csv`.
 
 ## Release-safe notebook policy
 
