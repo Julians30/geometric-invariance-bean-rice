@@ -1,0 +1,8 @@
+analysis_component,seed,scope,source_note
+original_frozen_protocol,20260803,"frozen split / original selected-model context","prespecified frozen protocol and original Notebook 05 context"
+confirmatory_cross_validation,2026081201,Notebook_12_v2,"confirmatory representation reanalysis"
+confirmatory_probability_estimation,2026081202,Notebook_12_v2,"reported as the confirmatory probability-estimation seed distinguishing the Dry Bean aligned refit from the original frozen champion"
+confirmatory_bootstrap,2026081203,Notebook_12_v2,"duplicate-group bootstrap for confirmatory analyses"
+confirmatory_permutation,2026081204,Notebook_12_v2,"controlled permutation analyses"
+confirmatory_conformal_sensitivity,2026081205,Notebook_12_v2,"conformal sensitivity analyses"
+naive_split_audit_base_seed,2026081206,Notebook_12_v2,"descriptive naive row-split leakage audit; subsequent repeats increment the seed"
