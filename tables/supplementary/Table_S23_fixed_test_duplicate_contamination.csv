@@ -1,0 +1,3 @@
+dataset_id,duplicated_test_groups_injected,injected_training_rows,contaminated_macro_f1,official_macro_f1,contaminated_minus_official_macro_f1,contaminated_accuracy,official_accuracy,contaminated_minus_official_accuracy,interpretation
+dry_bean,16,16,0.935117444865484,0.935439598153466,-0.000322153287982,0.9214678899082568,0.9218348623853212,-0.0003669724770641,same frozen test; one exact duplicate from each duplicated test group was injected into training
+iniap_rice,0,0,,0.977586916037337,,,0.9793478260869564,,not applicable; no duplicated frozen-test groups
