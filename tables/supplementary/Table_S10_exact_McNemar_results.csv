@@ -1,0 +1,12 @@
+dataset_id,representation_a,representation_b,b_a_correct_b_wrong,c_a_wrong_b_correct,discordant_total,mcnemar_exact_p_raw,mcnemar_exact_p_holm,reject_holm_0_05
+dry_bean,R1_full_native,R2_measured_core,86,31,117,3.681441540970094e-07,7.362883081940188e-07,True
+dry_bean,R1_full_native,R3_complete_invariant,399,53,452,1.0230946589022085e-66,5.115473294511041e-66,True
+dry_bean,R1_full_native,R3_reduced_current,397,50,447,3.9292266857665674e-68,2.3575360114599405e-67,True
+dry_bean,R1_full_native,R4_complete_log_area,25,20,45,0.5514843298025198,0.5514843298025198,False
+dry_bean,R2_measured_core,R3_complete_invariant,396,105,501,9.23205004420723e-41,2.769615013262169e-40,True
+dry_bean,R3_complete_invariant,R4_complete_log_area,52,393,445,7.326220571021323e-66,2.930488228408529e-65,True
+iniap_rice,R1_full_native,R2_measured_core,2,4,6,0.6875,1.0,False
+iniap_rice,R1_full_native,R3_complete_invariant,13,14,27,1.0,1.0,False
+iniap_rice,R1_full_native,R4_complete_log_area,6,12,18,0.237884521484375,1.0,False
+iniap_rice,R2_measured_core,R3_complete_invariant,17,16,33,1.0,1.0,False
+iniap_rice,R3_complete_invariant,R4_complete_log_area,7,12,19,0.359283447265625,1.0,False
