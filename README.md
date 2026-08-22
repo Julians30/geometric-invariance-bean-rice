@@ -52,8 +52,20 @@ The repository is being assembled to contain:
 - Numerical outputs used to support manuscript claims.
 - Machine-readable main and supplementary tables.
 - SHA-256 integrity manifests and validation records.
+- Automated release-scope and integrity checks.
 
 The current preparation status is tracked in [`STATUS.md`](STATUS.md).
+
+## Authoritative primary frozen results
+
+The primary test metrics come from the exact frozen Notebook 05 predictions and were reconciled by Notebook 13B:
+
+| Dataset | Frozen representation | Test n | Accuracy | Macro-F1 | MCC |
+|---|---|---:|---:|---:|---:|
+| Dry Bean | `R1_full_native` | 2,725 | 0.923303 | 0.936605 | 0.907402 |
+| INIAP Rice | `R4_hybrid_log_area` | 1,840 | 0.982609 | 0.981165 | 0.973128 |
+
+Notebook 12 refits are used only for the reviewer-driven confirmatory analyses defined in the source reconciliation; they do **not** replace these primary frozen results.
 
 ## Not included
 
@@ -72,7 +84,9 @@ The current preparation status is tracked in [`STATUS.md`](STATUS.md).
 - [`environment/README.md`](environment/README.md) — verified execution environment.
 - [`tables/main/`](tables/main/) — seven reconciled main machine-readable tables.
 - [`tables/supplementary/`](tables/supplementary/) — reconciled supplementary machine-readable outputs.
-- [`manifests/`](manifests/) — integrity, validation, and numerical-claim records.
+- [`manifests/`](manifests/) — integrity, validation, release-scope, and numerical-claim records.
+- [`scripts/verify_integrity.py`](scripts/verify_integrity.py) — SHA-256, file-size, and CSV-shape verification for frozen analytical data.
+- [`scripts/audit_release_scope.py`](scripts/audit_release_scope.py) — guardrail preventing accidental inclusion of prohibited original INIAP visual assets.
 
 ## Repository structure
 
@@ -95,8 +109,14 @@ geometric-invariance-bean-rice/
 ├── protocol/
 ├── manifests/
 ├── docs/
-└── environment/
+├── environment/
+├── scripts/
+└── .github/workflows/
 ```
+
+## Automated safeguards
+
+A GitHub Actions workflow runs the repository-scope audit and integrity checker on pushes and pull requests to `main`. The integrity checker reports the four large frozen analytical files as **pending** until they are transferred; once present, their SHA-256 values, sizes, and CSV shapes are checked against the frozen manifest.
 
 ## Reproducibility boundary
 
