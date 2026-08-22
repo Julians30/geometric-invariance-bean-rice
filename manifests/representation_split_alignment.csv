@@ -1,0 +1,9 @@
+dataset_id,representation,rows,alignment_exact
+dry_bean,R1_full_native,13611,True
+dry_bean,R2_measured_core,13611,True
+dry_bean,R3_invariant_core,13611,True
+dry_bean,R4_hybrid_log_area,13611,True
+iniap_rice,R1_full_native,9200,True
+iniap_rice,R2_measured_core,9200,True
+iniap_rice,R3_invariant_core,9200,True
+iniap_rice,R4_hybrid_log_area,9200,True
