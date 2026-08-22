@@ -21,9 +21,25 @@ Thumbs.db
 *.bak
 *.log
 
-# IMPORTANT: raw INIAP image assets are intentionally excluded
+# IMPORTANT: original INIAP visual assets are intentionally excluded
 raw_images/
 images_raw/
 segmentation_masks/
 masks/
 acquisition_raw/
+data/raw_images/
+data/images_raw/
+data/segmentation_masks/
+data/masks/
+data/acquisition_raw/
+
+# Safeguard: the data directory is feature-table only.
+# Analytical manuscript figures may live under figures/, but raster/raw image
+# files must never be placed under data/.
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.bmp
+data/**/*.tif
+data/**/*.tiff
+data/**/*.webp
