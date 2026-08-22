@@ -1,0 +1,44 @@
+{
+  "protocol_name": "Grain_Robustness_Q1_frozen_split_protocol_v1",
+  "created_utc": "2026-08-04T02:58:53.234024+00:00",
+  "split_seed": 20260803,
+  "model_seeds": [17, 42, 73, 101, 2026],
+  "split_method": "StratifiedGroupKFold with five folds; one fold for calibration, one fold for final testing, and three folds for training.",
+  "selection_rule": "Calibration and test folds selected by minimizing deviations from 60/20/20 sizes and class distributions using labels only.",
+  "selected_folds": {
+    "dry_bean": {"calibration_fold": 4, "test_fold": 3},
+    "iniap_rice": {"calibration_fold": 4, "test_fold": 3}
+  },
+  "partitions": {
+    "train": {
+      "target_proportion": 0.6,
+      "allowed_uses": ["model fitting", "hyperparameter search by internal cross-validation", "preprocessing fitting"]
+    },
+    "calibration": {
+      "target_proportion": 0.2,
+      "allowed_uses": ["probability calibration", "conformal calibration", "selection of fixed rejection thresholds defined in protocol"],
+      "forbidden_uses": ["model fitting", "final performance reporting as test evidence"]
+    },
+    "test": {
+      "target_proportion": 0.2,
+      "allowed_uses": ["single final evaluation after protocol freezing"],
+      "forbidden_uses": ["feature selection", "representation selection", "hyperparameter tuning", "threshold tuning", "calibration fitting"]
+    }
+  },
+  "primary_comparison_factor": "morphometric representation",
+  "representations": ["R1_full_native", "R2_measured_core", "R3_invariant_core", "R4_hybrid_log_area"],
+  "algorithms_as_sensitivity_factor": ["multinomial_logistic_regression", "rbf_svm", "extra_trees", "catboost"],
+  "primary_metric": "macro_f1",
+  "secondary_metrics": ["balanced_accuracy", "matthews_correlation_coefficient", "multiclass_log_loss", "multiclass_brier_score", "expected_calibration_error", "area_under_risk_coverage_curve", "conformal_marginal_coverage", "class_conditional_coverage", "mean_prediction_set_size"],
+  "hyperparameter_selection": "Five-fold stratified group-aware cross-validation restricted to the training partition.",
+  "multiplicity_control": "Holm correction within each prespecified family",
+  "bootstrap_replicates_final": 10000,
+  "synthetic_scale_factors": [0.5, 0.67, 0.8, 1.0, 1.25, 1.5, 2.0],
+  "hardware": {"recommended": "Google Colab CPU", "gpu_required": false},
+  "restrictions": [
+    "No claim of real camera-domain validation.",
+    "No conversion from pixels to physical units.",
+    "No test-set-guided model or representation selection.",
+    "Exact duplicate groups must remain within one partition."
+  ]
+}
