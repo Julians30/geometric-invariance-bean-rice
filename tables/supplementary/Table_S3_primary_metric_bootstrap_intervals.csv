@@ -1,0 +1,13 @@
+dataset_id,representation,algorithm,probability_status,metric,estimate,ci_low,ci_high,confidence_level,n_bootstrap,bootstrap_unit
+dry_bean,R1_full_native,rbf_svm,native,accuracy,0.9233027522935779,0.913571165869805,0.9331386262584414,0.95,2000,duplicate_group_id
+dry_bean,R1_full_native,rbf_svm,native,balanced_accuracy,0.9338937932300725,0.9254469210150524,0.942775405535121,0.95,2000,duplicate_group_id
+dry_bean,R1_full_native,rbf_svm,native,macro_f1,0.9366052596258141,0.9282893822867352,0.944835686641034,0.95,2000,duplicate_group_id
+dry_bean,R1_full_native,rbf_svm,native,mcc,0.9074018935084023,0.8956721122657302,0.9193456734658682,0.95,2000,duplicate_group_id
+dry_bean,R1_full_native,rbf_svm,native,log_loss,0.2174161407033396,0.1924801743254234,0.2431743799906267,0.95,2000,duplicate_group_id
+dry_bean,R1_full_native,rbf_svm,native,brier_multiclass,0.11431626452869836,0.1017422430962224,0.12690580322050204,0.95,2000,duplicate_group_id
+iniap_rice,R4_hybrid_log_area,rbf_svm,native,accuracy,0.9826086956521739,0.9760869565217392,0.9880434782608696,0.95,2000,duplicate_group_id
+iniap_rice,R4_hybrid_log_area,rbf_svm,native,balanced_accuracy,0.9814926832423136,0.9744907373062386,0.9877318526719052,0.95,2000,duplicate_group_id
+iniap_rice,R4_hybrid_log_area,rbf_svm,native,macro_f1,0.9811650961412389,0.9742075770564957,0.9870775969962454,0.95,2000,duplicate_group_id
+iniap_rice,R4_hybrid_log_area,rbf_svm,native,mcc,0.9731277166511985,0.9631424386379187,0.9815529418378716,0.95,2000,duplicate_group_id
+iniap_rice,R4_hybrid_log_area,rbf_svm,native,log_loss,0.04638579624240649,0.03415894031085122,0.05963293172548414,0.95,2000,duplicate_group_id
+iniap_rice,R4_hybrid_log_area,rbf_svm,native,brier_multiclass,0.026556523413873913,0.018886934058432777,0.034883258485421155,0.95,2000,duplicate_group_id
