@@ -1,0 +1,3 @@
+dataset_id,groups_in_multiple_partitions,duplicate_record_ids,train_calibration_fingerprint_overlap,train_test_fingerprint_overlap,calibration_test_fingerprint_overlap
+dry_bean,0,0,0,0,0
+iniap_rice,0,0,0,0,0
