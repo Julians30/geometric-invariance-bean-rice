@@ -1,0 +1,8 @@
+check,passed
+previous_notebook_validated,True
+all_representations_aligned,True
+no_group_leakage,True
+no_record_duplication,True
+no_full_row_fingerprint_overlap,True
+all_datasets_have_three_partitions,True
+all_classes_present_in_all_partitions,True
