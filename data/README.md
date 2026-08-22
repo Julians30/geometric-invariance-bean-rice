@@ -14,7 +14,7 @@ This directory is reserved exclusively for the **morphometric feature tables** u
 - DOI: 10.24432/C50S4B
 - License: CC BY 4.0
 
-The frozen file is retained only to document the exact analytical version used in this study.
+The frozen file is retained only to document the exact analytical version used in this study. See [`THIRD_PARTY_ATTRIBUTION.md`](THIRD_PARTY_ATTRIBUTION.md) for the dedicated source and reuse notice.
 
 ### INIAP Rice
 
@@ -27,11 +27,15 @@ The frozen file is retained only to document the exact analytical version used i
 - Area-related measurements interpreted in squared pixels
 - Dimensionless shape descriptors where applicable
 
+See [`INIAP_RICE_SCOPE.md`](INIAP_RICE_SCOPE.md) for the explicit article-release boundary and current reuse status.
+
 ## Files
 
-- `dry_bean_frozen_v1.csv`
-- `iniap_rice_frozen_v1.csv`
-- `data_dictionary.csv`
+- `dry_bean_frozen_v1.csv` — pending final large-file transfer.
+- `iniap_rice_frozen_v1.csv` — pending final large-file transfer.
+- `data_dictionary.csv` — available.
+- `THIRD_PARTY_ATTRIBUTION.md` — available.
+- `INIAP_RICE_SCOPE.md` — available.
 
 ## INIAP Rice release restriction
 
@@ -41,4 +45,14 @@ Only the derived morphometric table necessary for the feature-level analyses is 
 
 ## Reproducibility note
 
-The frozen datasets should be uploaded without modification so that their SHA-256 values remain consistent with the integrity manifests generated during the study.
+The frozen datasets must be uploaded **without modification** so that their SHA-256 values remain consistent with `../manifests/frozen_file_manifest.csv`. After transfer, run:
+
+```bash
+python scripts/verify_integrity.py
+```
+
+The release-scope guard can be checked with:
+
+```bash
+python scripts/audit_release_scope.py
+```
