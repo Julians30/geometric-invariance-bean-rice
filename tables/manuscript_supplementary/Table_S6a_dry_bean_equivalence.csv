@@ -1,0 +1,2 @@
+dataset_id,comparison,equivalence_margin,delta_macro_f1,bootstrap_95_ci_low,bootstrap_95_ci_high,criterion,equivalent
+dry_bean,R1_full_native_vs_R4_complete_log_area,0.01,0.0024112298711591,-0.0020845354849655,0.0069796654376592,"entire 95% duplicate-group bootstrap interval contained within [-0.01, 0.01]; a stricter interval criterion than the 90% interval required by TOST at alpha=0.05",True
