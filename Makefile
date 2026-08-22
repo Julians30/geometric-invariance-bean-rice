@@ -1,8 +1,12 @@
-.PHONY: audit integrity integrity-strict verify release-check status
+.PHONY: audit notebook-audit integrity integrity-strict verify release-check status
 
 # Check that prohibited original INIAP visual assets are not in the release scope.
 audit:
 	python scripts/audit_release_scope.py
+
+# Check release notebooks for executed outputs, attachments, execution counts and raw-image loading calls.
+notebook-audit:
+	python scripts/audit_notebooks.py
 
 # Verify present release-intended frozen CSV files; missing large files are reported as PENDING.
 integrity:
@@ -13,10 +17,10 @@ integrity-strict:
 	python scripts/verify_integrity.py --strict
 
 # Preparation-mode repository verification.
-verify: audit integrity
+verify: audit notebook-audit integrity
 
 # Reviewer/public-release gate. This is expected to fail until all four large CSV files are transferred.
-release-check: audit integrity-strict
+release-check: audit notebook-audit integrity-strict
 
 # Show the repository preparation checklist.
 status:
