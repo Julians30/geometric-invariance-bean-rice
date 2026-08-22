@@ -1,0 +1,7 @@
+﻿figure,caption_note
+Figure 1,Confirmatory representation comparison from Notebook 12; primary performance remains sourced from the exact Notebook 05 champions.
+Figure 2,Intervals are paired duplicate-group bootstrap intervals.
+Figure 3,"Error bars are standard deviations across permutation repeats, not sampling confidence intervals."
+Figure 4,Risk–coverage curves are from Notebook 07 and use the exact frozen champions.
+Figure 5,Empty conformal sets are retained and counted as non-covering outcomes.
+Figure 6,Scale perturbations are coherent transformations of image-space measurements and are not calibrated physical-size changes.
