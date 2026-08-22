@@ -4,15 +4,15 @@ S1b,Analytical source reconciliation,tables/supplementary/Table_S1_source_reconc
 S2,Exact selected-model metadata,tables/supplementary/Table_S2_exact_model_metadata.csv,available
 S3,Duplicate-group bootstrap intervals for primary metrics,tables/supplementary/Table_S3_primary_metric_bootstrap_intervals.csv,available
 S4b,Complete absolute confirmatory metrics for all representations,tables/supplementary/Table_S8_all_representation_metrics.csv,available
-S4c,Complete Holm families for paired representation contrasts,tables/supplementary/Table_S9_all_paired_representation_contrasts.csv,pending_transfer
+S4c,Complete Holm families for paired representation contrasts,tables/supplementary/Table_S9_all_paired_representation_contrasts.csv,available
 S5,Exact McNemar comparisons,tables/supplementary/Table_S10_exact_McNemar_results.csv,available
 S6a,Dry Bean practical equivalence R1 vs R4-C,tables/manuscript_supplementary/Table_S6a_dry_bean_equivalence.csv,available
 S6b,Five prespecified INIAP Rice equivalence contrasts,tables/supplementary/Table_S11_rice_equivalence_results.csv,available
 S7,Before-after calibration diagnostics,tables/supplementary/Table_S5_calibration_audit.csv,available
 S8,Complete classwise performance,tables/supplementary/Table_S6_classwise_metrics.csv,available
-S9,Selective-classification uncertainty at selected operating point,tables/supplementary/Table_S13_selective_operating_point_intervals.csv,pending_transfer
+S9,Selective-classification uncertainty at selected operating point,tables/supplementary/Table_S13_selective_operating_point_intervals.csv,available
 S9c,Selective classwise coverage at 90% target,tables/supplementary/Table_S14_selective_classwise_90pct.csv,available
-S10,Conformal sensitivity LAC RAPS Mondrian deterministic,"tables/supplementary/Table_S15_all_conformal_global_results.csv | Table_S16_all_conformal_classwise_results.csv | Table_S17_conformal_quantiles.csv | Table_S18_conformal_global_intervals.csv | Table_S19_conformal_paired_comparisons.csv",pending_transfer
+S10,Conformal sensitivity LAC RAPS Mondrian deterministic,"tables/supplementary/Table_S15_all_conformal_global_results.csv | Table_S16_all_conformal_classwise_results.csv | Table_S17_conformal_quantiles.csv | Table_S18_conformal_global_intervals.csv | Table_S19_conformal_paired_comparisons.csv",available
 S11,Complete controlled R1 block-permutation results,tables/supplementary/Table_S20_controlled_R1_importance.csv,available
 S12,Complete image-space scale perturbation grid,tables/supplementary/Table_S21_complete_R1_scale_sensitivity.csv,available
 S13,Complete duplicate-leakage audits,"tables/supplementary/Table_S22_naive_row_split_audit.csv | Table_S23_fixed_test_duplicate_contamination.csv",available
