@@ -18,5 +18,8 @@ jobs:
       - name: Audit release boundary
         run: python scripts/audit_release_scope.py
 
+      - name: Audit release notebooks
+        run: python scripts/audit_notebooks.py
+
       - name: Require all release-intended frozen CSV files and verify integrity
         run: python scripts/verify_integrity.py --strict
