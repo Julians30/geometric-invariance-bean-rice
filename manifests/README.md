@@ -4,7 +4,8 @@ This directory stores the compact records used to preserve traceability between 
 
 ## Current files
 
-- `frozen_file_manifest.csv` — expected row count, column count, file size, and SHA-256 for the frozen Dry Bean and INIAP Rice analytical files.
+- `frozen_file_manifest.csv` — archival row count, column count, file size, and SHA-256 for frozen Dry Bean and INIAP Rice CSV/Parquet analytical files.
+- `split_file_manifest.csv` — row count, column count, file size, and SHA-256 for the two full frozen split-manifest CSVs intended for the repository release.
 - `split_leakage_audit.csv` — checks that grouped train/calibration/test assignments are leakage-safe.
 - `representation_split_alignment.csv` — confirms representation-level records remain aligned to the same frozen partitions.
 - `final_split_validation.csv` — final split validation summary.
@@ -12,15 +13,24 @@ This directory stores the compact records used to preserve traceability between 
 - `final_notebook13B_validation.csv` — final source-reconciliation and manuscript-asset validation checks.
 - `release_scope.csv` — explicit include/exclude policy for datasets, notebooks, tables, and original INIAP visual assets.
 
-## Integrity verification
+## Release-intended integrity verification
 
-After the four large frozen CSV files are transferred, run:
+The article repository is currently intended to include exactly four large frozen CSV assets:
+
+1. `data/dry_bean_frozen_v1.csv`
+2. `data/iniap_rice_frozen_v1.csv`
+3. `splits/dry_bean_split_manifest_v1.csv`
+4. `splits/iniap_rice_split_manifest_v1.csv`
+
+After transfer, run:
 
 ```bash
-python scripts/verify_integrity.py
+python scripts/verify_integrity.py --strict
 ```
 
-The script verifies SHA-256, file size, and CSV dimensions against `frozen_file_manifest.csv`.
+The script verifies SHA-256, file size, row count, and column count. In normal preparation mode, absent large files are reported as `PENDING`; in `--strict` mode, any missing release-intended file fails the check.
+
+The Parquet hashes remain in `frozen_file_manifest.csv` as archival provenance, but Parquet files are not currently required for the public article repository because the CSV tables are sufficient for the planned feature-level release.
 
 ## Release-scope verification
 
