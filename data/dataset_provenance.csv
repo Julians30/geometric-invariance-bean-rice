@@ -1,0 +1,3 @@
+dataset_id,dataset_name,records,classes,source_type,ownership_status,original_source_or_creator,release_scope,measurement_domain,license_or_reuse_status
+dry_bean,Dry Bean Dataset,13611,7,public_third_party_benchmark,not_owned_by_manuscript_authors,"Murat Koklu and Ilker Ali Ozkan; UCI Machine Learning Repository",frozen_morphometric_feature_table,"image-space pixels, squared pixels, dimensionless descriptors",CC BY 4.0
+iniap_rice,INIAP Rice morphometric dataset,9200,3,original_research_dataset,generated_within_authors_research,"Authors' research; certified INIAP-11, INIAP-12 and INIAP-20 seed material",morphometric_feature_table_only,"image-space pixels, squared pixels, dimensionless descriptors",no_separate_public_reuse_license_assigned_during_private_preparation
