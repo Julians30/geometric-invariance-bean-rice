@@ -4,10 +4,17 @@ This directory stores the frozen train/calibration/test assignments used in the 
 
 ## Files
 
-- `dry_bean_split_manifest_v1.csv` — pending final large-file transfer.
-- `iniap_rice_split_manifest_v1.csv` — pending final large-file transfer.
+### Full manifests — pending final large-file transfer
 
-The files have already been verified in the project archive and must be transferred **without modification**.
+- `dry_bean_split_manifest_v1.csv`
+- `iniap_rice_split_manifest_v1.csv`
+
+The full files have already been verified in the project archive and must be transferred **without modification**.
+
+### Compact audit summaries — available
+
+- `Table_split_summary.csv` — dataset-level partition counts and split metadata.
+- `Table_split_class_distribution.csv` — class distribution across train, calibration, and test partitions.
 
 ## Frozen split protocol
 
@@ -36,7 +43,7 @@ The frozen split manifest contains **9,200 unique groups for 9,200 records**. No
 
 ## Manifest columns
 
-Both split manifests contain the same 12 fields:
+Both full split manifests contain the same 12 fields:
 
 - `dataset_id`
 - `record_id`
