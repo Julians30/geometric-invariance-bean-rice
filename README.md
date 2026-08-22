@@ -77,8 +77,11 @@ Notebook 12 refits are used only for the reviewer-driven confirmatory analyses d
 ## Documentation index
 
 - [`DATA_RIGHTS.md`](DATA_RIGHTS.md) — provenance, ownership, and reuse status.
+- [`DATA_CITATION.md`](DATA_CITATION.md) — dataset-specific attribution and future citation guidance.
 - [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) — working pre-publication and post-publication data-availability wording.
 - [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) — frozen evaluation design and reproducibility protocol.
+- [`docs/README.md`](docs/README.md) — manuscript-facing documentation index.
+- [`docs/MANUSCRIPT_ASSET_CROSSWALK.md`](docs/MANUSCRIPT_ASSET_CROSSWALK.md) — direct manuscript-to-repository evidence map.
 - [`docs/MANUSCRIPT_LABEL_MAPPING.md`](docs/MANUSCRIPT_LABEL_MAPPING.md) — mapping between historical internal representation names and the scientific manuscript labels.
 - [`notebooks/INDEX.md`](notebooks/INDEX.md) — analytical notebook sequence and authority hierarchy.
 - [`environment/README.md`](environment/README.md) — verified execution environment.
@@ -96,6 +99,7 @@ geometric-invariance-bean-rice/
 ├── STATUS.md
 ├── CITATION.cff
 ├── DATA_RIGHTS.md
+├── DATA_CITATION.md
 ├── DATA_AVAILABILITY.md
 ├── REPRODUCIBILITY.md
 ├── requirements.txt
