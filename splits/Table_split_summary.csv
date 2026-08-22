@@ -1,0 +1,7 @@
+dataset_id,partition,n_records,proportion,n_groups,n_classes
+dry_bean,train,8161,0.5995885680699434,8125,7
+dry_bean,calibration,2725,0.20020571596502829,2709,7
+dry_bean,test,2725,0.20020571596502829,2709,7
+iniap_rice,train,5520,0.6,5520,3
+iniap_rice,calibration,1840,0.2,1840,3
+iniap_rice,test,1840,0.2,1840,3
