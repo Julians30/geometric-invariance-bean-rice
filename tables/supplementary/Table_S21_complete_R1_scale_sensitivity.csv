@@ -1,0 +1,15 @@
+dataset_id,representation,relative_scale_bias,scale_bias_percent,macro_f1,macro_f1_drop,accuracy,mcc,label_flip_rate,interpretation
+dry_bean,R1_full_native,-0.05,-5.0,0.8945401649857657,0.0406806602938603,0.8715393133997785,0.8486736344173297,0.0974529346622369,systematic image-space scale transformation; not a calibrated physical-size change
+dry_bean,R1_full_native,-0.02,-2.0,0.930106891109978,0.0051139341696478,0.9150978220745662,0.8981010744976113,0.0339608711701735,systematic image-space scale transformation; not a calibrated physical-size change
+dry_bean,R1_full_native,-0.01,-1.0,0.9342536005764872,0.0009672247031389,0.9195275009228496,0.9029327109042036,0.0177187153931339,systematic image-space scale transformation; not a calibrated physical-size change
+dry_bean,R1_full_native,0.0,0.0,0.935220825279626,0.0,0.921373200442968,0.905045273449946,0.0,systematic image-space scale transformation; not a calibrated physical-size change
+dry_bean,R1_full_native,0.01,1.0,0.9307728588728468,0.0044479664067793,0.9158361018826136,0.8985048476578417,0.0173495754891103,systematic image-space scale transformation; not a calibrated physical-size change
+dry_bean,R1_full_native,0.02,2.0,0.93200869869999,0.0032121265796359,0.9176818014027316,0.9011903817474018,0.0372831303063861,systematic image-space scale transformation; not a calibrated physical-size change
+dry_bean,R1_full_native,0.05,5.0,0.9142705705526744,0.0209502547269516,0.8962716869693614,0.877362658606415,0.0852713178294573,systematic image-space scale transformation; not a calibrated physical-size change
+iniap_rice,R1_full_native,-0.05,-5.0,0.9696687230244276,0.0079181930129093,0.9717391304347828,0.9566389751130848,0.0206521739130434,systematic image-space scale transformation; not a calibrated physical-size change
+iniap_rice,R1_full_native,-0.02,-2.0,0.978875760830648,-0.001288844793311,0.9804347826086957,0.9698259360748568,0.0076086956521739,systematic image-space scale transformation; not a calibrated physical-size change
+iniap_rice,R1_full_native,-0.01,-1.0,0.978210854647536,-0.0006239386101989,0.979891304347826,0.9689220845992268,0.0027173913043478,systematic image-space scale transformation; not a calibrated physical-size change
+iniap_rice,R1_full_native,0.0,0.0,0.977586916037337,0.0,0.9793478260869564,0.9680675330640504,0.0,systematic image-space scale transformation; not a calibrated physical-size change
+iniap_rice,R1_full_native,0.01,1.0,0.9769850189005193,0.0006018971368177,0.9788043478260868,0.9672239689043926,0.0016304347826086,systematic image-space scale transformation; not a calibrated physical-size change
+iniap_rice,R1_full_native,0.02,2.0,0.9763574433981166,0.0012294726392204,0.9782608695652174,0.9663789279068176,0.0043478260869565,systematic image-space scale transformation; not a calibrated physical-size change
+iniap_rice,R1_full_native,0.05,5.0,0.9695061084058354,0.0080808076315016,0.9722826086956522,0.9572928030454856,0.0168478260869565,systematic image-space scale transformation; not a calibrated physical-size change
