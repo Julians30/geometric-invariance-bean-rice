@@ -1,0 +1,11 @@
+dataset_id,representation,algorithm,probability_status,certainty_score,selected_in_calibration,target_calibration_coverage,class_label,support,retained,class_coverage,correct_retained,class_selective_accuracy,class_selective_risk,primary_analysis
+dry_bean,R1_full_native,rbf_svm,temperature_scaled,max_probability,True,0.9,BARBUNYA,278,248,0.8920863309352518,235,0.9475806451612904,0.0524193548387096,True
+dry_bean,R1_full_native,rbf_svm,temperature_scaled,max_probability,True,0.9,BOMBAY,102,101,0.9901960784313726,101,1.0,0.0,True
+dry_bean,R1_full_native,rbf_svm,temperature_scaled,max_probability,True,0.9,CALI,322,290,0.9006211180124224,281,0.9689655172413794,0.0310344827586206,True
+dry_bean,R1_full_native,rbf_svm,temperature_scaled,max_probability,True,0.9,DERMASON,691,617,0.8929088277858177,596,0.965964343598055,0.0340356564019449,True
+dry_bean,R1_full_native,rbf_svm,temperature_scaled,max_probability,True,0.9,HOROZ,407,384,0.9434889434889436,378,0.984375,0.015625,True
+dry_bean,R1_full_native,rbf_svm,temperature_scaled,max_probability,True,0.9,SEKER,399,370,0.9273182957393484,363,0.981081081081081,0.0189189189189189,True
+dry_bean,R1_full_native,rbf_svm,temperature_scaled,max_probability,True,0.9,SIRA,526,430,0.8174904942965779,390,0.9069767441860463,0.0930232558139535,True
+iniap_rice,R4_hybrid_log_area,rbf_svm,temperature_scaled,top2_margin,True,0.9,INIAP-11,601,598,0.995008319467554,598,1.0,0.0,True
+iniap_rice,R4_hybrid_log_area,rbf_svm,temperature_scaled,top2_margin,True,0.9,INIAP-12,802,708,0.8827930174563591,707,0.998587570621469,0.001412429378531,True
+iniap_rice,R4_hybrid_log_area,rbf_svm,temperature_scaled,top2_margin,True,0.9,INIAP-20,437,338,0.7734553775743707,337,0.9970414201183432,0.0029585798816568,True
