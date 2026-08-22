@@ -1,0 +1,25 @@
+name: Repository scope audit
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  release-scope-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Audit release boundary
+        run: python scripts/audit_release_scope.py
+
+      - name: Check frozen-file integrity when present
+        run: python scripts/verify_integrity.py
