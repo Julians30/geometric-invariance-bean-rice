@@ -1,0 +1,3 @@
+dataset_id,representation,algorithm,probability_status,certainty_score,target_calibration_coverage,certainty_threshold,test_coverage,test_selective_accuracy,test_selective_risk,test_macro_f1,test_min_class_coverage
+dry_bean,R1_full_native,rbf_svm,temperature_scaled,max_probability,0.9,0.7557396680448141,0.8954128440366973,0.960655737704918,0.0393442622950819,0.96649297531169,0.8174904942965779
+iniap_rice,R4_hybrid_log_area,rbf_svm,temperature_scaled,top2_margin,0.9,0.956137197393874,0.8934782608695652,0.9987834549878344,0.0012165450121655,0.9985429969132706,0.7734553775743707
