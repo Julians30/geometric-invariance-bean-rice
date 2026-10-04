@@ -1,17 +1,17 @@
-# Data availability statement — working repository version
+# Data Availability Statement
 
-## Current status
+## Current repository status
 
-This repository is **private during manuscript preparation**. The text below is a working data-availability statement aligned with the analytical materials currently maintained here.
+This repository is currently private while the final submission package is being reconciled.
 
-## Proposed manuscript statement before public release
+## Manuscript wording while repository remains private
 
-> The Dry Bean dataset is publicly available from the UCI Machine Learning Repository (DOI: 10.24432/C50S4B) under the Creative Commons Attribution 4.0 International license. For INIAP Rice, the complete 9,200-record morphometric feature table used in the present analysis, prespecified split assignments, analysis code, numerical outputs, and SHA-256 integrity manifests are maintained in the project repository during manuscript preparation and will be made available in accordance with the journal's data-sharing requirements and the authors' publication plan. Original INIAP Rice grain images, segmentation masks, and the complete image-acquisition and segmentation workflow are not released because they form part of an ongoing doctoral research programme. The released morphometric resources are sufficient to reproduce the statistical and machine-learning analyses conducted from the extracted features, but not the original image-acquisition or segmentation stages.
+> The Dry Bean dataset is publicly available from the UCI Machine Learning Repository (DOI: 10.24432/C50S4B). The 9,200-record INIAP Rice morphometric feature table, frozen train/calibration/test assignments, analysis code, numerical outputs, SHA-256 integrity manifests, and the record-level overlap manifest with the earlier INIAP Rice study constitute the feature-level reproducibility materials for the present analysis. These materials are maintained in the project repository and are available from the corresponding author upon reasonable request.
 
-## Proposed manuscript statement after repository public release
+## Recommended wording after public GitHub release
 
-> The Dry Bean dataset is publicly available from the UCI Machine Learning Repository (DOI: 10.24432/C50S4B) under the Creative Commons Attribution 4.0 International license. The complete 9,200-record INIAP Rice morphometric feature table used in the present analysis, prespecified split assignments, analysis code, numerical outputs, and SHA-256 integrity manifests are available in the associated project repository. Original INIAP Rice grain images, segmentation masks, and the complete image-acquisition and segmentation workflow are not released because they form part of an ongoing doctoral research programme. The released morphometric resources are sufficient to reproduce the statistical and machine-learning analyses conducted from the extracted features, but not the original image-acquisition or segmentation stages.
+> The Dry Bean dataset is publicly available from the UCI Machine Learning Repository (DOI: 10.24432/C50S4B). The 9,200-record INIAP Rice morphometric feature table, frozen train/calibration/test assignments, analysis code, numerical outputs, SHA-256 integrity manifests, and the record-level overlap manifest with the earlier INIAP Rice study are available in the project repository: https://github.com/Julians30/geometric-invariance-bean-rice. The repository provides feature-level reproducibility for the statistical and machine-learning analyses reported in this article.
 
-## Important scope boundary
+## Scope boundary
 
-The phrase **complete 9,200-record INIAP Rice morphometric feature table** refers only to the numerical analytical table. It does not imply release of original images or masks.
+The repository release is intentionally limited to the **tabular morphometric analytical workflow and its reproducibility materials**. Original visual assets are outside the scope of the repository.
