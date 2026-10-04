@@ -1,25 +1,22 @@
 cff-version: 1.2.0
 message: "If you use the materials in this repository, please cite the associated manuscript and the original Dry Bean source as appropriate."
-title: "Testing Geometric Invariance in Leakage-Safe Bean and Rice Classification"
+title: "Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification"
 type: software
 authors:
+  - family-names: "Vélez-SanMartín"
+    given-names: "Bryan Orlando"
   - family-names: "Coronel-Reyes"
     given-names: "Julián"
-  - family-names: "Quiguango Farias"
-    given-names: "Diego"
-  - family-names: "Vergara-Lozano"
-    given-names: "Vanessa"
-  - family-names: "Delgado-Vera"
-    given-names: "Carlota"
-  - family-names: "Haro-Sarango"
-    given-names: "Alexander"
-  - family-names: "Carvajal Romero"
-    given-names: "Héctor Ramiro"
+  - family-names: "Barahona-Montalván"
+    given-names: "Bryan Iván"
 repository-code: "https://github.com/Julians30/geometric-invariance-bean-rice"
 keywords:
-  - morphometric classification
   - geometric invariance
-  - rice
+  - representation sufficiency
+  - morphometric classification
+  - tabular classification
   - dry bean
+  - rice
   - machine learning
+  - uncertainty quantification
   - reproducibility
