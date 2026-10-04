@@ -1,6 +1,6 @@
 # Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification
 
-Reproducibility repository associated with the manuscript **“Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification.”**
+Public reproducibility repository associated with the manuscript **“Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification.”**
 
 ## Repository scope
 
@@ -70,37 +70,10 @@ Notebook 12 provides the confirmatory reviewer-driven representation analyses. N
 - [`scripts/verify_integrity.py`](scripts/verify_integrity.py) — integrity verification.
 - [`scripts/audit_release_scope.py`](scripts/audit_release_scope.py) — repository-scope guardrail.
 
-## Repository structure
-
-```text
-geometric-invariance-bean-rice/
-├── README.md
-├── STATUS.md
-├── CITATION.cff
-├── DATA_RIGHTS.md
-├── DATA_CITATION.md
-├── DATA_AVAILABILITY.md
-├── REPRODUCIBILITY.md
-├── requirements.txt
-├── data/
-├── splits/
-├── notebooks/
-├── results/
-├── tables/
-│   ├── main/
-│   └── supplementary/
-├── protocol/
-├── manifests/
-├── docs/
-├── environment/
-├── scripts/
-└── .github/workflows/
-```
-
 ## Reproducibility boundary
 
-The repository is designed to reproduce the **feature-table statistical and machine-learning analyses** reported in the manuscript. It does not claim to reproduce upstream image acquisition or segmentation.
+The repository reproduces the **feature-table statistical and machine-learning analyses** reported in the manuscript. It does not claim to reproduce upstream image acquisition or segmentation.
 
 ## Repository status
 
-The repository is currently **private while the final submission package is being reconciled**. Before the GitHub URL is presented in the manuscript as a public resource, repository visibility should be changed to **Public** and the final integrity checks should pass.
+The repository is **public** at https://github.com/Julians30/geometric-invariance-bean-rice. No archival DOI is claimed at this stage.
