@@ -20,15 +20,13 @@ The detailed file-by-file authority hierarchy is maintained in [`INDEX.md`](INDE
 12. Reviewer-driven confirmatory reanalysis.
 13. Final manuscript-asset freeze and reconciliation.
 
-## Current transfer status
+## Current published notebooks
 
-The notebook names, roles, and source hierarchy are documented, but the release-safe notebook files themselves are still pending final transfer to this repository.
+The complete feature-level analytical sequence **01–15, including 13B**, is published in this folder. Notebooks 01–13B were distributed as output-stripped source copies. Notebooks 14 and 15 have also been cleaned of stored execution outputs and non-null execution counters, without modifying their code cells.
 
-A release audit has now been performed on the complete analytical notebook sequence available in the project archive: **01, 02, 03, 04, 05, 06, 07, 08 canonical v2, 09 v2, 10, 11 final, 12 corrected, 13, and 13B**. Output-stripped copies were created for all 14 notebooks.
+The historical `../manifests/notebook_release_audit.csv` records the original cleaning and preparation of notebooks 01–13B; its `pending_transfer` statuses describe the former preparation stage and are **not the current GitHub availability status**.
 
-Across the complete source sequence, **384 executed outputs and 85 embedded image outputs were removed**, with **zero cell attachments** detected. A targeted source-code audit also found **zero raw-image loading calls or raw raster-file references** matching the release guard patterns. The `.png` references retained in code are generated analytical figures, while `mask` occurrences are analytical Boolean masks rather than segmentation-mask loading operations.
-
-The machine-readable audit, cleaned notebook sizes, and SHA-256 values are stored in `../manifests/notebook_release_audit.csv`.
+The manuscript-facing authority hierarchy and roles for every notebook are recorded in [`INDEX.md`](INDEX.md). Historical `AI_MDPI` substrings in immutable notebook filenames do not signify the current journal; the associated manuscript is submitted to *Agriculture* (MDPI).
 
 ## Release-safe notebook policy
 
