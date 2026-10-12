@@ -25,8 +25,10 @@ The INIAP Rice table used in this manuscript contains:
 - linear variables expressed in pixels and area-related variables in squared pixels;
 - dimensionless descriptors where applicable.
 
-The public-release scope, if activated, is limited to the **numerical morphometric table and associated reproducibility metadata**. Original visual assets are outside the scope of this repository.
+The public repository includes the **numerical morphometric table and associated reproducibility metadata**. Original visual assets are outside the scope of this repository. Public accessibility does not confer the MIT software license on this dataset or establish additional permissions for redistribution.
 
 ## Repository code and documentation
+
+The authors' original analysis scripts, published source notebooks, repository automation, and associated software documentation are made available under the [MIT License](LICENSE), as delimited in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). This license does not extend to Dry Bean or INIAP Rice research datasets, split/data manifests, numerical research outputs, figures, or the manuscript.
 
 Code/documentation licensing should be handled separately from dataset rights. No blanket data license should be interpreted as overriding the provenance or reuse terms of the Dry Bean benchmark or the authors' INIAP Rice analytical table.
