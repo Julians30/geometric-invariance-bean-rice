@@ -1,5 +1,7 @@
 # Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification
 
+[![Repository scope audit](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml/badge.svg?branch=main)](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml) [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
+
 Public reproducibility repository associated with the manuscript **“Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification.”**
 
 **Journal:** *Agriculture* (MDPI). Reproducibility scope: morphometric feature-table analyses only, not the upstream images or segmentation.
