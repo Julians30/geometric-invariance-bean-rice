@@ -31,8 +31,8 @@ See [`INIAP_RICE_SCOPE.md`](INIAP_RICE_SCOPE.md) for the explicit article-releas
 
 ## Files
 
-- `dry_bean_frozen_v1.csv` — pending final large-file transfer.
-- `iniap_rice_frozen_v1.csv` — pending final large-file transfer.
+- `dry_bean_frozen_v1.csv` — public frozen analytical CSV (13,611 records).
+- `iniap_rice_frozen_v1.csv` — public frozen numerical feature-level CSV (9,200 records).
 - `data_dictionary.csv` — available.
 - `THIRD_PARTY_ATTRIBUTION.md` — available.
 - `INIAP_RICE_SCOPE.md` — available.
@@ -45,7 +45,7 @@ Only the derived morphometric table necessary for the feature-level analyses is 
 
 ## Reproducibility note
 
-The frozen datasets must be uploaded **without modification** so that their SHA-256 values remain consistent with `../manifests/frozen_file_manifest.csv`. After transfer, run:
+The published frozen datasets must remain **unchanged** so that their SHA-256 values remain consistent with `../manifests/frozen_file_manifest.csv`. After transfer, run:
 
 ```bash
 python scripts/verify_integrity.py
