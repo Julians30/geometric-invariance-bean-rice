@@ -4,12 +4,12 @@ This directory stores the frozen train/calibration/test assignments used in the 
 
 ## Files
 
-### Full manifests — pending final large-file transfer
+### Full frozen manifests — publicly available
 
 - `dry_bean_split_manifest_v1.csv`
 - `iniap_rice_split_manifest_v1.csv`
 
-The full files have already been verified in the project archive and must be transferred **without modification**.
+The two full split-manifest CSV files are present in this repository and must remain unchanged. Their recorded SHA-256 values, file sizes, and record counts can be checked with `python scripts/verify_integrity.py --strict`.
 
 ### Compact audit summaries — available
 
