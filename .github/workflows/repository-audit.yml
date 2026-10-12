@@ -25,7 +25,7 @@ jobs:
         run: python scripts/audit_notebooks.py
 
       - name: Audit manuscript supplementary crosswalk
-        run: python scripts/audit_manuscript_crosswalk.py
+        run: python scripts/audit_manuscript_crosswalk.py --strict
 
       - name: Check frozen-file integrity when present
-        run: python scripts/verify_integrity.py
+        run: python scripts/verify_integrity.py --strict
