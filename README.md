@@ -4,6 +4,12 @@ Public reproducibility repository associated with the manuscript **“Geometric 
 
 **Journal:** *Agriculture* (MDPI). Reproducibility scope: morphometric feature-table analyses only, not the upstream images or segmentation.
 
+## Code license and data rights
+
+**Software license: MIT.** The authors' original Python scripts, source notebooks, and repository automation code are available under the [MIT License](LICENSE). See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) for exactly what it covers.
+
+**Datasets are separate from the software license.** Dry Bean retains its original **CC BY 4.0** terms and attribution to Koklu and Ozkan. The author-generated INIAP Rice 9,200-record morphometric table is publicly accessible for research reproducibility, but **no separate public reuse license is granted by the MIT license**. The original grain images and acquisition/segmentation assets are not shared. Consult [DATA_RIGHTS.md](DATA_RIGHTS.md) before reusing any dataset or non-software research asset.
+
 ## Repository scope
 
 This repository is restricted to the **feature-level analytical workflow** reported in the manuscript. It supports reproducibility of the statistical and machine-learning analyses performed from tabular morphometric descriptors.
