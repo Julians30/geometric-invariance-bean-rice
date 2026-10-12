@@ -28,4 +28,4 @@ This exclusion is intentional. The manuscript evaluates classification and geome
 
 ## Reuse status
 
-During manuscript preparation this repository is private. No public reuse license for the original INIAP Rice morphometric table is granted by this notice. Reuse terms should be defined explicitly at the time of any public release, separately from the license applicable to third-party Dry Bean data and separately from any software license.
+This repository is public and includes the derived INIAP Rice numerical morphometric table. Public access alone does not grant unrestricted reuse rights for the author-generated INIAP Rice table; no separate public reuse license has been specified in this notice. These terms should be clarified separately from the Dry Bean third-party license and from any future software/documentation license.
