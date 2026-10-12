@@ -1,40 +1,30 @@
-# Submission-ready repository wording
+# Submission-ready repository wording — Agriculture (MDPI)
 
-This file contains working text for the manuscript and submission system. It should be synchronized with the exact repository access policy used at submission.
+**Associated manuscript:** *Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification*.
 
-## Data Availability Statement — while repository remains private
+The repository is publicly accessible at https://github.com/Julians30/geometric-invariance-bean-rice. Do not use historical statements suggesting it is still private or that the four frozen CSV files have not yet been uploaded.
 
-> **Data Availability Statement:** The Dry Bean dataset used in this study is a public third-party benchmark available from the UCI Machine Learning Repository (Koklu and Ozkan, 2020; https://doi.org/10.24432/C50S4B). The INIAP Rice dataset used in the present analysis is an original 9,200-record morphometric dataset generated within the authors' research. The article reproducibility package is restricted to the derived numerical morphometric feature table, prespecified leakage-safe train/calibration/test split assignments, feature-level analysis code, numerical outputs, and integrity manifests. The project repository is maintained privately during manuscript preparation and will be made accessible in accordance with the journal's review and publication requirements. Original INIAP Rice grain images, segmentation masks, raw image-acquisition assets, and other unreleased visual materials are not included because they form part of an ongoing doctoral research programme. The released feature-level resources are intended to reproduce the statistical and machine-learning analyses reported from the morphometric descriptors; they do not reproduce the upstream image-acquisition or segmentation stages.
+## Recommended Data Availability Statement
 
-## Data Availability Statement — after an intentional public repository release
+> The Dry Bean dataset is publicly available from the UCI Machine Learning Repository (DOI: 10.24432/C50S4B). The 9,200-record INIAP Rice morphometric feature table, frozen training/calibration/test assignments, feature-level analysis notebooks, numerical outputs, supplementary tables and SHA-256 integrity manifests are publicly available at https://github.com/Julians30/geometric-invariance-bean-rice. The deposit supports reproducibility of the reported morphometric-descriptor analyses. Original INIAP Rice grain images, segmentation masks, and raw image-acquisition assets are outside the scope of this repository and are not redistributed.
 
-Use this version only after the repository is actually accessible to readers and the four release-intended frozen CSV files and release-safe notebooks have passed the strict repository checks.
+## Supplementary Materials — scope
 
-> **Data Availability Statement:** The Dry Bean dataset used in this study is publicly available from the UCI Machine Learning Repository (Koklu and Ozkan, 2020; https://doi.org/10.24432/C50S4B). The derived 9,200-record INIAP Rice morphometric feature table used in the present analysis, prespecified leakage-safe train/calibration/test split assignments, feature-level analysis notebooks, machine-readable numerical outputs, and SHA-256 integrity manifests are available in the associated project repository. Original INIAP Rice grain images, segmentation masks, raw image-acquisition assets, and other unreleased visual materials are not included because they form part of an ongoing doctoral research programme. The released resources reproduce the feature-level statistical and machine-learning analyses reported in the manuscript but do not reproduce the upstream image-acquisition or segmentation stages.
+The supplementary evidence includes provenance records; frozen-model metadata; bootstrap uncertainty for primary metrics; calibration audits; classwise metrics and confusion matrices; representation and practical-equivalence analyses; exact McNemar comparisons; selective-classification and conformal results; feature-block importance; scale and duplicate-leakage sensitivity; and documented analysis seeds and timing. Manuscript labels such as S1a, S4c and S9c are mapped to their source files in `tables/supplementary/manuscript_label_crosswalk.csv`. Internal asset numbers are not equivalent to manuscript table numbers.
 
-Do not insert the repository URL into the public-release wording until access has actually been enabled.
+## Source and rights boundaries
 
-## Supplementary Materials — working manuscript wording
+Dry Bean is a third-party public benchmark attributed to Koklu and Ozkan. The INIAP Rice release is a **numerical feature table**; it does not include original doctoral-project image assets. Code/documentation and author-generated data reuse rights must be declared separately, without applying the Dry Bean license to other files by default.
 
-> **Supplementary Materials:** Machine-readable supplementary materials accompanying this study include source-reconciliation records; exact frozen model metadata; bootstrap uncertainty intervals for the primary performance metrics; probability-calibration audits; classwise performance metrics and confusion matrices; corrected representation audits and representation-level performance results; exact McNemar comparisons; practical-equivalence analyses for INIAP Rice; selective-classification results; controlled permutation-importance analyses; image-space scale-sensitivity analyses; leakage-sensitivity audits; computational timing; source-validation summaries; and numerical claim/integrity manifests. Additional full selective-classification and conformal-prediction operating-point tables are retained in the project archive and may be included in the final journal supplementary package as required.
+No article DOI or repository DOI should be invented. Update `CITATION.cff` and `DATA_CITATION.md` only when actual publication identifiers become available.
 
-## Repository citation wording
-
-Until the associated article has final bibliographic metadata, cite Dry Bean to its original UCI source and associated paper. Do not assign an invented DOI to the INIAP Rice morphometric dataset or to this repository.
-
-After article acceptance/publication, update `CITATION.cff`, `DATA_CITATION.md`, and this document with the final manuscript DOI and any intentionally assigned permanent repository/data identifier.
-
-## Mandatory pre-release checks
-
-Before changing repository visibility or inserting a public GitHub link into the manuscript, run:
+## Checks on the public repository
 
 ```bash
-make release-check
+python scripts/audit_release_scope.py
+python scripts/audit_notebooks.py
+python scripts/audit_manuscript_crosswalk.py --strict
+python scripts/verify_integrity.py --strict
 ```
 
-The release gate must confirm:
-
-1. no prohibited original INIAP Rice visual assets are inside the repository;
-2. release notebooks are output-stripped and contain no flagged raw-image loading calls;
-3. both frozen morphometric CSVs and both full split-manifest CSVs are present;
-4. SHA-256, byte size, row count, and column count match the frozen manifests.
+Confirm that GitHub Actions is passing after the notebook 14/15 output-cleanup commits, and check exact correspondence to the final *Agriculture* submission package.
