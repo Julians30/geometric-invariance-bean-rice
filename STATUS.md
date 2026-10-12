@@ -37,7 +37,8 @@ Also confirm that the most recent GitHub Actions audit succeeds. Previous workfl
 
 ## Outstanding editorial/rights decisions
 
-- Confirm licensing terms for this repository's code and documentation independently of the Dry Bean source license and INIAP Rice data reuse terms.
+- [x] Apply the MIT license to author-owned source code and associated software documentation; clarify that the license does not cover datasets or other research assets. See `LICENSE` and `LICENSE_SCOPE.md`.
+- [ ] Define, if desired, separate explicit reuse terms for the original INIAP Rice numerical feature table (publicly accessible but not MIT-licensed).
 - Confirm exact consistency of the submitted *Agriculture* manuscript and supplementary material with repository table/figure mappings.
 - Update citation metadata after an actual article DOI is assigned; no article or repository DOI is claimed here.
 
