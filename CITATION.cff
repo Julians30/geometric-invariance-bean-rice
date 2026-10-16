@@ -9,6 +9,8 @@ authors:
     given-names: "Julián"
   - family-names: "Barahona-Montalván"
     given-names: "Bryan Iván"
+  - family-names: "Castro-Chancay"
+    given-names: "Dara"
 repository-code: "https://github.com/Julians30/geometric-invariance-bean-rice"
 keywords:
   - geometric invariance
