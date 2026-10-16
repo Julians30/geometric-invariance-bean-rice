@@ -1,9 +1,9 @@
-# Repository status — Agriculture (MDPI) submission
+# Repository status — AgriEngineering (MDPI) planned submission
 
 **Repository:** https://github.com/Julians30/geometric-invariance-bean-rice
 **Visibility:** Public
 **Associated manuscript:** *Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification*.
-**Journal:** *Agriculture* (MDPI).
+**Target journal:** *AgriEngineering* (MDPI); Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture* (planned submission, not accepted).
 
 ## Published reproducibility assets
 
@@ -39,7 +39,7 @@ Also confirm that the most recent GitHub Actions audit succeeds. Previous workfl
 
 - [x] Apply the MIT license to author-owned source code and associated software documentation; clarify that the license does not cover datasets or other research assets. See `LICENSE` and `LICENSE_SCOPE.md`.
 - [ ] Define, if desired, separate explicit reuse terms for the original INIAP Rice numerical feature table (publicly accessible but not MIT-licensed).
-- Confirm exact consistency of the submitted *Agriculture* manuscript and supplementary material with repository table/figure mappings.
+- Confirm exact consistency of the *AgriEngineering* submission-ready manuscript and supplementary material with repository table/figure mappings.
 - Update citation metadata after an actual article DOI is assigned; no article or repository DOI is claimed here.
 
 ## Scope and limitations
