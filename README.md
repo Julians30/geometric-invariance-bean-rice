@@ -4,7 +4,7 @@
 
 Public reproducibility repository associated with the manuscript **“Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification.”**
 
-**Journal:** *Agriculture* (MDPI). Reproducibility scope: morphometric feature-table analyses only, not the upstream images or segmentation.
+**Target journal:** *AgriEngineering* (MDPI); section: *Computer Applications and Artificial Intelligence in Agriculture*; planned Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture*. This is a planned submission, not an acceptance or publication. Reproducibility scope: morphometric feature-table analyses only, not upstream images or segmentation.
 
 ## Code license and data rights
 
