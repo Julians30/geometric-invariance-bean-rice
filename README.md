@@ -1,10 +1,10 @@
 # Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification
 
-[![Repository scope audit](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml/badge.svg?branch=main)](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml) [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
+[![Repository scope audit](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml/badge.svg?branch=main)](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml) [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white) ![Status](https://img.shields.io/badge/Status-Under%20review%20%C2%B7%20AgriEngineering-2E6DA4)
 
 Public reproducibility repository associated with the manuscript **“Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification.”**
 
-**Target journal:** *AgriEngineering* (MDPI); section: *Computer Applications and Artificial Intelligence in Agriculture*; planned Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture*. This is a planned submission, not an acceptance or publication. Reproducibility scope: morphometric feature-table analyses only, not upstream images or segmentation.
+**Editorial status (24 October 2026):** manuscript **under review** at *AgriEngineering* (MDPI); section: *Computer Applications and Artificial Intelligence in Agriculture*; Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture*. It is not yet accepted or published. Reproducibility scope: morphometric feature-table analyses only, not upstream images or segmentation.
 
 ## Code license and data rights
 

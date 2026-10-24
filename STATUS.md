@@ -1,9 +1,9 @@
-# Repository status — AgriEngineering (MDPI) planned submission
+# Repository status — AgriEngineering (MDPI), under review
 
 **Repository:** https://github.com/Julians30/geometric-invariance-bean-rice
 **Visibility:** Public
 **Associated manuscript:** *Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification*.
-**Target journal:** *AgriEngineering* (MDPI); Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture* (planned submission, not accepted).
+**Target journal:** *AgriEngineering* (MDPI); Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture* (manuscript under review as of 24 October 2026; not yet accepted or published).
 
 ## Published reproducibility assets
 
