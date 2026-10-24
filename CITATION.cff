@@ -3,13 +3,13 @@ message: "If you use the materials in this repository, please cite the associate
 title: "Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification"
 type: software
 authors:
-  - family-names: "Vélez-SanMartín"
+  - family-names: "Vélez San Martín"
     given-names: "Bryan Orlando"
   - family-names: "Coronel-Reyes"
     given-names: "Julián"
   - family-names: "Barahona-Montalván"
     given-names: "Bryan Iván"
-  - family-names: "Castro-Chancay"
+  - family-names: "Castro Chancay"
     given-names: "Dara"
 repository-code: "https://github.com/Julians30/geometric-invariance-bean-rice"
 keywords:
