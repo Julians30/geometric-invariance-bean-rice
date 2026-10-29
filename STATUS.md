@@ -3,13 +3,13 @@
 **Repository:** https://github.com/Julians30/geometric-invariance-bean-rice
 **Visibility:** Public
 **Associated manuscript:** *Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification*.
-**Target journal:** *AgriEngineering* (MDPI); Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture* (manuscript under review as of 24 October 2026; not yet accepted or published).
+**Target journal:** *AgriEngineering* (MDPI); Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture* (manuscript under review as of 28 October 2026; not yet accepted or published).
 
 ## Published reproducibility assets
 
 - Dry Bean frozen feature-level CSV (13,611 records) and INIAP Rice frozen feature-level CSV (9,200 records).
 - Full frozen train/calibration/test split manifests for both datasets.
-- Notebooks 01–15, including 13B; public versions have their execution outputs and execution counters cleared.
+- Notebooks 01–15 (including 13B) plus separate NB16–NB18 peer-review notebooks; uploaded reviewer notebooks have their execution outputs and counters cleared.
 - Main and supplementary numerical tables, figures, frozen protocol, source-reconciliation evidence, and SHA-256 manifests.
 - Documentation of third-party Dry Bean attribution and the restricted feature-level release scope for INIAP Rice.
 
@@ -21,6 +21,13 @@
 | INIAP Rice | 0.982609 | 0.981165 | 0.973128 | Frozen Notebook 05, main Table 2 |
 
 Notebook 12 contains separate confirmatory representation and sensitivity analyses; Notebook 13B reconciles the manuscript evidence, and Notebook 15 regenerates figures without changing statistical results.
+
+## Additional peer-review repository assets (28 October 2026)
+
+- [reviewer_round_2026_10/](reviewer_round_2026_10/README.md): 26 machine-readable CSVs supporting NB16–NB18 and record-level provenance reconciliation.
+- [notebooks/reviewer_round_2026_10/](notebooks/reviewer_round_2026_10/): NB16, Cammeo–Osmancik reference replication, NB17, NB17B and NB18 code (execution outputs removed).
+- The frozen selected models and all earlier notebooks/CSV tables were preserved; no principal metrics were overwritten.
+- The final paper has Figures 1–12 and Tables 1–13, but legacy repository asset numbering differs. Follow the updated [asset crosswalk](docs/MANUSCRIPT_ASSET_CROSSWALK.md), not a filename match.
 
 ## Submission checks
 
