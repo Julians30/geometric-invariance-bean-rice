@@ -1,0 +1,11 @@
+dataset,representation,nb12_internal_name,n_features,features,n_test,macro_f1,accuracy
+dry_bean,R1,R1_full_native,16,Area | Perimeter | MajorAxisLength | MinorAxisLength | AspectRation | Eccentricity | ConvexArea | EquivDiameter | Extent | Solidity | roundness | Compactness | ShapeFactor1 | ShapeFactor2 | ShapeFactor3 | ShapeFactor4,2725,0.9354395981534659,0.9218348623853211
+dry_bean,R2,R2_measured_core,6,area | perimeter | major_axis | minor_axis | convex_area | extent,2725,0.9140728462003659,0.901651376146789
+dry_bean,R3-C,R3_complete_invariant,8,AspectRation | Eccentricity | Extent | Solidity | roundness | Compactness | ShapeFactor3 | ShapeFactor4,2725,0.7620670285392909,0.7948623853211009
+dry_bean,R3-5,R3_reduced_current,5,aspect_ratio | extent | solidity | circularity | ellipse_fill,2725,0.7589659773839182,0.7944954128440367
+dry_bean,R4-C,R4_complete_log_area,9,AspectRation | Eccentricity | Extent | Solidity | roundness | Compactness | ShapeFactor3 | ShapeFactor4 | log_area,2725,0.9330283682823067,0.92
+dry_bean,R4-5,R4_reduced_log_area_current,6,aspect_ratio | extent | solidity | circularity | ellipse_fill | log_area,2725,0.9349525942870244,0.9233027522935779
+iniap_rice,R1,R1_full_native,7,AREA | PERIMETER | MAJOR_AXIS | MINOR_AXIS | ECCENTRICITY | CONVEX_AREA | EXTENT,1840,0.977586916037337,0.9793478260869565
+iniap_rice,R2,R2_measured_core,6,area | perimeter | major_axis | minor_axis | convex_area | extent,1840,0.9788107331588938,0.9804347826086957
+iniap_rice,R3-5,R3_complete_invariant,5,aspect_ratio | extent | solidity | circularity | ellipse_fill,1840,0.9781422250130701,0.9798913043478261
+iniap_rice,R4-5,R4_complete_log_area,6,aspect_ratio | extent | solidity | circularity | ellipse_fill | log_area,1840,0.9811650961412389,0.9826086956521739
