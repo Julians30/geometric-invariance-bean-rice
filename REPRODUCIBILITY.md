@@ -51,3 +51,9 @@ INIAP Rice linear dimensions are interpreted in pixels, area-related descriptors
 ## Integrity
 
 Frozen analytical files should not be edited after release. SHA-256 values are recorded in `manifests/frozen_file_manifest.csv`, and reconciliation checks are stored under `manifests/`. Notebook 13B is the cross-source reconciliation authority; Notebook 14 contains final minor-revision analyses; Notebook 15 regenerates final publication figures only.
+
+## Review-round sensitivity analyses (2026)
+
+The original seed 20260803 splits and test predictions are retained. The additional reviewer analyses and source notebooks are linked in [reviewer_round_2026_10/README.md](reviewer_round_2026_10/README.md). NB16 and NB17 provide group-aware inference and a **separate** duplicate-group-disjoint 40/30/30 calibration sensitivity: temperature estimation, selective threshold, conformal quantiles. NB17B audits disjoint calibration/test records and groups. NB18 adds the same five invariants—aspect ratio, extent, solidity, circularity, ellipse fill—to both crops (R3-5), and separately adds log(pixel area) (R4-5). These are reviewer-driven exploratory checks, not retroactive model selection or new prespecified tests.
+
+Do not interchange the original Dry Bean R1 champion macro-F1 (0.936605) with the aligned R1 refit (0.935440), which used a distinct probability-estimation seed. Rice's original selected R4-NR champion has macro-F1 0.981165; the aligned native R1 reference has macro-F1 0.977587. The primary numerical margin ±0.01 and exploratory ±0.005 sensitivity are distinct from externally validated operating-cost thresholds.
