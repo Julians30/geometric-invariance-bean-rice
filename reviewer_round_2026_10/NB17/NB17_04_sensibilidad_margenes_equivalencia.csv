@@ -1,0 +1,13 @@
+dataset,contrast,equivalence_margin,ci90_lower,ci90_upper,equivalence_supported_exploratory,qualification
+dry_bean,R1 minus R3-C,0.005,0.15764141382354582,0.18909717953540994,False,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+dry_bean,R1 minus R3-C,0.01,0.15764141382354582,0.18909717953540994,False,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+dry_bean,R1 minus R3-C,0.02,0.15764141382354582,0.18909717953540994,False,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+dry_bean,R1 minus R4-C,0.005,-0.0013026182507982708,0.006087709027380711,False,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+dry_bean,R1 minus R4-C,0.01,-0.0013026182507982708,0.006087709027380711,True,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+dry_bean,R1 minus R4-C,0.02,-0.0013026182507982708,0.006087709027380711,True,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+iniap_rice,R1 minus R3-NR,0.005,-0.005828680887563442,0.004620810367075294,False,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+iniap_rice,R1 minus R3-NR,0.01,-0.005828680887563442,0.004620810367075294,True,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+iniap_rice,R1 minus R3-NR,0.02,-0.005828680887563442,0.004620810367075294,True,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+iniap_rice,R1 minus R4-NR,0.005,-0.007689914655232976,0.0005069256418136878,False,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+iniap_rice,R1 minus R4-NR,0.01,-0.007689914655232976,0.0005069256418136878,True,Retrospective test-set sensitivity only; not agronomic/operational margin justification
+iniap_rice,R1 minus R4-NR,0.02,-0.007689914655232976,0.0005069256418136878,True,Retrospective test-set sensitivity only; not agronomic/operational margin justification
