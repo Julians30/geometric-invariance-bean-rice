@@ -1,0 +1,11 @@
+dataset,representation,n_cal,cal_groups,n_test,test_groups,overlap_record_id,overlap_duplicate_group_id,verdict
+dry_bean,R1,2725,2709,2725,2709,0,0,PASS
+dry_bean,R2,2725,2709,2725,2709,0,0,PASS
+dry_bean,R3-C,2725,2709,2725,2709,0,0,PASS
+dry_bean,R3-5,2725,2709,2725,2709,0,0,PASS
+dry_bean,R4-C,2725,2709,2725,2709,0,0,PASS
+dry_bean,R4-5,2725,2709,2725,2709,0,0,PASS
+iniap_rice,R1,1840,1840,1840,1840,0,0,PASS
+iniap_rice,R2,1840,1840,1840,1840,0,0,PASS
+iniap_rice,R3-5,1840,1840,1840,1840,0,0,PASS
+iniap_rice,R4-5,1840,1840,1840,1840,0,0,PASS
