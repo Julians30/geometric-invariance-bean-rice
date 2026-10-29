@@ -1,0 +1,3 @@
+dataset,representation,n_cal_rows,n_cal_groups,n_test_rows,n_test_groups,overlap_record_ids,overlap_duplicate_groups,overlap_calibration_subgroups,temperature_groups,selective_groups,conformal_groups,verdict
+dry_bean,R1_full_native,2725,2709,2725,2709,0,0,0,1083,813,813,PASS
+iniap_rice,R4_complete_log_area,1840,1840,1840,1840,0,0,0,736,552,552,PASS
