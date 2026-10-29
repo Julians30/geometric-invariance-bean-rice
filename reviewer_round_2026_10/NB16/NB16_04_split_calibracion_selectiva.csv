@@ -1,0 +1,3 @@
+dataset,representation,temperature,n_temperature,n_selective_calibration,n_conformal_calibration,certainty_threshold,test_coverage,test_selected_accuracy
+dry_bean,R1,1.0491452806196426,1091,817,817,0.7454409462967906,0.8921100917431193,0.9613327848621966
+iniap_rice,R4-NR,0.8696289971747976,736,552,552,0.985114750351048,0.8896739130434783,0.9987782529016493
