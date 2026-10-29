@@ -1,10 +1,10 @@
-# Manuscript supplementary-label crosswalk — Agriculture (MDPI)
+# Manuscript supplementary-label crosswalk — AgriEngineering (MDPI), 2026
 
 **Associated manuscript:** *Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification*.
 
 The labels printed in the manuscript (S1a, S1b, S4b, S4c, S6a, S6b, S9c, etc.) differ from the internal machine-readable filenames retained from the frozen analysis. This is intentional: **internal file numbers must never be used as manuscript table numbers without the mapping below**.
 
-The authoritative machine-readable mapping is `tables/supplementary/manuscript_label_crosswalk.csv`. The mapped files listed here are present in the public repository.
+The original supplementary evidence mapping is `tables/supplementary/manuscript_label_crosswalk.csv`. The mapped **original** files listed here are present in the public repository; the new reviewer-round supplements are explicitly documented below.
 
 | Manuscript label | Purpose | Published evidence |
 |---|---|---|
@@ -42,3 +42,11 @@ Do not rename the frozen CSV assets merely to make their internal numbering matc
 ## Release boundary
 
 Original INIAP Rice grain images, segmentation masks, and other unreleased doctoral research assets remain outside this repository. Only the feature-level numerical data, analyses, and reproducibility outputs are provided. No repository DOI is claimed.
+
+## Reviewer-driven supplementary extension — October 2026
+
+The author's final revised text describes **Tables S18–S28 and Figures S7–S10** as a reviewer-driven extension, alongside the original Tables S1a–S17 and Figures S1–S6. The public [reviewer-round archive](../reviewer_round_2026_10/README.md) now includes 26 original numerical CSV exports from NB16–NB18 and cleaned source notebooks. The extension covers year-level provenance, aligned classwise outcomes, independent Cammeo–Osmancik reference replication, harmonized R3-5/R4-5 representations, group-aware inference, independent calibration roles, classwise workload and retrospective precision.
+
+**Scope of this crosswalk:** the numeric CSV exports are public, but no exact one-to-one mapping from each print-formatted S18–S28 table or S7–S10 figure to a file in this repository has been independently checked against the submitted Supplementary Materials package. Do not infer such a mapping from the internal CSV names. Original S1a–S17 mapping is retained, and a dedicated label-level extension should be added only after verifying the finalized supplemental file.
+
+Source image files and acquisition/segmentation code remain outside this feature-table reproducibility release.
