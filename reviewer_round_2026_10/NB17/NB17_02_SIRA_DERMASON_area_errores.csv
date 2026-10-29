@@ -1,0 +1,7 @@
+class_label,representation,n_test,n_wrong,n_confused_with_pair,area_all_median,area_wrong_median,area_pair_confusion_median
+SIRA,R1,526,78,61,44936.0,37825.0,37316.0
+SIRA,R3-C,526,188,142,44936.0,43297.0,42358.5
+SIRA,R4-C,526,75,58,44936.0,37903.0,37418.5
+DERMASON,R1,691,53,40,31706.0,40061.0,40632.0
+DERMASON,R3-C,691,129,95,31706.0,32184.0,32757.0
+DERMASON,R4-C,691,57,46,31706.0,40003.0,40294.0
