@@ -34,3 +34,17 @@ Only notebooks supporting the **feature-level morphometric workflow** belong in 
 - **Final figure rendering only:** Notebook 15 v4.
 
 Notebook 15 changes presentation only and must not be treated as a new inferential source.
+
+## Reviewer-round notebooks (added 28 October 2026)
+
+The following *supplementary* analyses are published in [reviewer_round_2026_10](reviewer_round_2026_10/). They are distinct from the frozen notebook sequence and must not be used to retrospectively replace the original selected models or frozen test partitions. Execution outputs and execution counts were removed before publication; cell sources were preserved.
+
+| Analysis | Notebook | Role |
+|---|---|---|
+| NB16 | [NB16 reviewer analyses](reviewer_round_2026_10/NB16_AgriEngineering_4664292_Ensayos_Revision_CPU_COLAB.ipynb) | classwise F1/confusions, duplicate-group inference, calibration sensitivity, acquisition provenance |
+| NB16 reference | [Cammeo–Osmancik](reviewer_round_2026_10/NB16_AgriEngineering_Validacion_Externa_Cammeo_CPU.ipynb) | within-dataset independent reference comparison (not cross-dataset model transfer) |
+| NB17 | [NB17 complementary analysis](reviewer_round_2026_10/NB17_AgriEngineering_4664292_Ensayos_Complementarios_CPU.ipynb) | class-size profiles, margin sensitivity, LAC/RAPS/Mondrian checks |
+| NB17B | [NB17B partition audit](reviewer_round_2026_10/NB17B_Auditoria_Particiones_4664292_CORREGIDO.ipynb) | duplicate-group-disjoint calibration/test checks |
+| NB18 | [NB18 symmetric representations](reviewer_round_2026_10/NB18_Representaciones_Simetricas_4664292_CPU.ipynb) | harmonized five-feature R3-5 and log-area R4-5 exploratory comparison |
+
+The code originally resolves some inputs relative to the project Google Drive path `Grain_Robustness_Q1`; a new user may need to adapt input paths to a checkout or local copies. The numerical outputs are published separately as CSVs; do not mistake cleared notebook cells for absent results.
