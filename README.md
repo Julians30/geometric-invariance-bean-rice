@@ -4,7 +4,7 @@
 
 Public reproducibility repository associated with the manuscript **“Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification.”**
 
-**Editorial status (24 October 2026):** manuscript **under review** at *AgriEngineering* (MDPI); section: *Computer Applications and Artificial Intelligence in Agriculture*; Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture*. It is not yet accepted or published. Reproducibility scope: morphometric feature-table analyses only, not upstream images or segmentation.
+**Editorial status (28 October 2026):** manuscript **under review** at *AgriEngineering* (MDPI); section: *Computer Applications and Artificial Intelligence in Agriculture*; Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture*. It is not yet accepted or published. Reproducibility scope: morphometric feature-table analyses only, not upstream images or segmentation.
 
 ## Code license and data rights
 
@@ -63,7 +63,7 @@ The repository contains:
 | Dry Bean | `R1_full_native` | 2,725 | 0.923303 | 0.936605 | 0.907402 |
 | INIAP Rice | `R4_hybrid_log_area` | 1,840 | 0.982609 | 0.981165 | 0.973128 |
 
-Notebook 12 provides the confirmatory reviewer-driven representation analyses. Notebook 13B reconciles numerical sources. Notebook 14 adds final minor-revision sensitivity and diagnostic analyses, and Notebook 15 regenerates the final publication figures without changing any statistical result.
+Notebook 12 provides the aligned representation reanalysis, Notebook 13B reconciles numerical sources, Notebook 14 adds sensitivity/diagnostics and Notebook 15 regenerates presentation figures. NB16–NB18 provide separate peer-review additions; none replaces the original frozen selected-model results.
 
 ## Documentation index
 
@@ -87,3 +87,16 @@ The repository reproduces the **feature-table statistical and machine-learning a
 ## Repository status
 
 The repository is **public** at https://github.com/Julians30/geometric-invariance-bean-rice. No archival DOI is claimed at this stage.
+
+## October 2026 peer-review evidence (NB16–NB18)
+
+The [reviewer-round evidence archive](reviewer_round_2026_10/README.md) contains **26 additional CSV results** and five cleaned, source-preserving notebooks under [notebooks/reviewer_round_2026_10/](notebooks/reviewer_round_2026_10/). These are additions to—not replacements for—the frozen primary results and existing Notebooks 01–15.
+
+- **NB16:** per-class confusion/F1, duplicate-group-aware inference, independent calibration sensitivity, 2025/2026 provenance audit and Cammeo–Osmancik within-dataset replication.
+- **NB17:** class-size profiles, margin/precision sensitivity and LAC/APS/RAPS/Mondrian diagnostics.
+- **NB17B:** independent subset and calibration/test-disjointness audit.
+- **NB18:** matched R3-5/R4-5 five-variable invariant comparisons and group-paired uncertainty; R4-5 adds exactly one log-area descriptor.
+
+The INIAP Rice source acquisitions occurred on multiple dates in **2025 and 2026**, not one session. The 9,200-row table contains 2,400 records overlapping prior work and 6,800 additional records. No specific acquisition months, lot-disjoint or cross-device validation are claimed. The added [record-level provenance manifest](reviewer_round_2026_10/NB16/NB16_10_manifest_procedencia_usado.csv) is feature-table metadata and is not original imagery.
+
+For numbered paper tables, use the [current manuscript-to-asset crosswalk](docs/MANUSCRIPT_ASSET_CROSSWALK.md). Historical repository-internal Table_1/Table_2 labels **do not** match final manuscript Table 1/Table 2 numbers. The manuscript Figure 1 is a workflow diagram; the legacy file named `figures/main/Figure_1_corrected_representation_performance.png` is a different analytical figure and **must not** be cited as manuscript Figure 1.
