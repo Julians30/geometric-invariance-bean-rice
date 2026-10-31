@@ -1,10 +1,10 @@
 # Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification
 
-[![Repository scope audit](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml/badge.svg?branch=main)](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml) [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white) ![Status](https://img.shields.io/badge/Status-Under%20review%20%C2%B7%20AgriEngineering-2E6DA4)
+[![Repository scope audit](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml/badge.svg?branch=main)](https://github.com/Julians30/geometric-invariance-bean-rice/actions/workflows/repository-audit.yml) [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white) ![Status](https://img.shields.io/badge/Status-Accepted%20%C2%B7%20AgriEngineering-2F855A)
 
 Public reproducibility repository associated with the manuscript **“Geometric Invariance and Representation Sufficiency in Morphometric Bean and Rice Classification.”**
 
-**Editorial status (28 October 2026):** manuscript **under review** at *AgriEngineering* (MDPI); section: *Computer Applications and Artificial Intelligence in Agriculture*; Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture*. It is not yet accepted or published. Reproducibility scope: morphometric feature-table analyses only, not upstream images or segmentation.
+**Editorial status (30 October 2026):** manuscript **accepted for publication** at *AgriEngineering* (MDPI), as reported by the authors; section: *Computer Applications and Artificial Intelligence in Agriculture*; Special Issue: *Deep Detection, Machine Learning and Computer Applications in Agriculture*. The article is **not yet published**; final proof corrections and publication metadata are pending. No article DOI or publication date is claimed. Reproducibility scope: morphometric feature-table analyses only, not upstream images or segmentation.
 
 ## Code license and data rights
 
